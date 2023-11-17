@@ -1,0 +1,221 @@
+.product {
+  padding: 8rem 0;
+  //   overflow: hidden;
+  .container {
+    @media screen and (min-width: 1200px) and (max-width: 1727px) {
+      margin: unset;
+      margin-left: auto;
+    }
+  }
+  .subTitle {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: rgba(64, 134, 48, 1);
+    position: relative;
+    &::after {
+      content: "";
+      background-image: url("../../assets/images/leaf.png");
+      width: 1.9rem;
+      height: 1.9rem;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+      position: absolute;
+      right: -1.9rem;
+      top: -0.9rem;
+    }
+  }
+  &-main {
+    margin-top: 0.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 4rem;
+    @include max(667px) {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
+  &-title {
+    @include mainTitle;
+    @include max(500px) {
+      font-size: 3rem;
+    }
+  }
+  &-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    cursor: pointer;
+    position: relative;
+    font-weight: 700;
+    border-radius: 100rem;
+    overflow: hidden;
+    background: #fef0da;
+    gap: 1rem;
+    font-size: 1.6rem;
+    padding-right: 1.4rem;
+    &:hover {
+      .text {
+        &::before {
+          left: 0;
+          width: 200%;
+        }
+      }
+      i {
+        color: white;
+      }
+    }
+    .text {
+      padding: 1.2rem 1.6rem;
+      position: relative;
+      display: block;
+      border-radius: inherit;
+      color: $color-white;
+      z-index: 2;
+      &::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #f36f3f;
+        border-radius: inherit;
+        z-index: -1;
+        transition: all 0.9s;
+      }
+    }
+    i {
+      color: #f36f3f;
+      transition: all 0.5s;
+      z-index: 2;
+    }
+  }
+  &-list {
+    --col-gap: 2rem;
+    --row-gap: 2rem;
+    @include max(1020px) {
+      --col-gap: 1rem;
+      --row-gap: 1rem;
+    }
+  }
+  .col {
+    width: 20%;
+    @include max(920px) {
+      width: calc(4 / 12 * 100%);
+    }
+    @include max(667px) {
+      width: 50%;
+    }
+    // @include max(500px) {
+    //   width: 100%;
+    // }
+  }
+  &-wrap {
+    padding: 0.8rem;
+    border-radius: 1.2rem;
+    border: 1px solid #ededed;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  &-img {
+    padding-top: calc((1 / 1) * 100%);
+    position: relative;
+    border-radius: 0.8rem;
+    overflow: hidden;
+    flex-shrink: 0;
+    cursor: pointer;
+    img {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+  &-content {
+    margin-top: auto;
+  }
+  &-name {
+    margin-top: 0.8rem;
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: rgba(54, 54, 54, 1);
+    margin-bottom: 0.6rem;
+    @media screen and (min-width: 1200px) and (max-width: 1440px) {
+      font-size: 1.4rem;
+    }
+  }
+  &-sub {
+    display: flex;
+    gap: 0.4rem;
+    align-items: center;
+    margin-bottom: 2.4rem;
+  }
+  &-discount {
+    padding: 0.3rem 0.8rem;
+    border-radius: 0.6rem;
+    background-color: rgba(254, 240, 218, 1);
+    .number {
+      font-weight: 700;
+      font-size: 1.6rem;
+      color: rgba(255, 155, 0, 1);
+    }
+  }
+  &-bestSeller {
+    padding: 0.3rem 0.8rem;
+    border-radius: 0.6rem;
+    background-color: rgba(217, 231, 214, 1);
+    .bestSeller {
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: rgba(64, 134, 48, 1);
+    }
+  }
+  &-price {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: auto;
+    .left {
+      .number {
+        font-size: 1.6rem;
+        font-weight: 700;
+        color: rgba(243, 111, 63, 1);
+      }
+      .number-main {
+        font-size: 1.2rem;
+        font-weight: 500;
+        color: rgba(160, 160, 160, 1);
+        text-decoration: line-through;
+      }
+    }
+    .right {
+      .product-plus {
+        cursor: pointer;
+        width: 3.2rem;
+        height: 3.2rem;
+        border-radius: 10rem;
+        border: 1px solid rgba(247, 154, 121, 1);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &:hover {
+          .fa-plus {
+            transform: rotate(180deg);
+          }
+        }
+        .fa-plus {
+          color: rgba(247, 154, 121, 1);
+          transition: 0.3s ease-in-out;
+          transform: translateX(0.1rem);
+        }
+      }
+    }
+  }
+}

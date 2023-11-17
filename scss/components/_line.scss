@@ -1,0 +1,129 @@
+.line {
+  //   padding: 8rem 0;
+  height: 32.23rem;
+  position: relative;
+  overflow: hidden;
+  &-item {
+    height: 6rem;
+    position: absolute;
+    &.down {
+      background-color: rgba(252, 180, 69, 1);
+      bottom: 9rem;
+      left: 0;
+      width: 100%;
+      z-index: -1;
+    }
+    &.up {
+      padding: 1.6rem 4.8rem;
+      @include max(746px) {
+        padding: 1.6rem 2rem;
+      }
+      @include max(570px) {
+        padding: 1.6rem 0;
+      }
+      @include max(410px) {
+        .line-list-item {
+          padding: 1.6rem 1rem;
+        }
+      }
+      background-color: #f36f3f;
+      transform: rotate(8deg);
+      left: -7%;
+      width: 150%;
+      bottom: 11rem;
+      z-index: 3;
+    }
+  }
+  &-list {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    @include max(746px) {
+      justify-content: flex-start;
+    }
+
+    gap: 1rem;
+    @include max(1080px) {
+      .line-list-item {
+        &:nth-child(11),
+        &:nth-child(12) {
+          display: none;
+        }
+      }
+    }
+    @include max(928px) {
+      gap: 0.2rem;
+    }
+    @include max(746px) {
+      .line-list-item {
+        &:nth-child(9),
+        &:nth-child(10) {
+          display: none;
+        }
+      }
+    }
+    @include max(570px) {
+      .line-list-item {
+        &:nth-child(7),
+        &:nth-child(8) {
+          display: none;
+        }
+      }
+    }
+    @include max(410px) {
+      .line-list-item {
+        &:nth-child(5),
+        &:nth-child(6) {
+          display: none;
+        }
+      }
+    }
+    // @include max(500px) {
+    //   .line-list-item {
+    //     &:nth-child(5),
+    //     &:nth-child(6) {
+    //       display: none;
+    //     }
+    //   }
+    // }
+  }
+  &-wrap {
+    .line-text {
+      margin-left: 0.5rem;
+
+      font-size: 2rem;
+      font-weight: 700;
+      color: rgba(255, 255, 255, 1);
+      @include max(1400px) {
+        font-size: 1.6rem;
+      }
+      @include max(1200px) {
+        font-size: 1.4rem;
+      }
+      @include max(928px) {
+        margin-left: 0;
+        font-size: 1.2rem;
+      }
+    }
+  }
+  &-img {
+    // position: absolute;
+    // top: 2%;
+    // right: 29rem;
+    // height: 100%;
+    z-index: 1;
+    &-inner {
+      @media (min-width: 1630px) and (max-width: 2000px) {
+        width: calc(100% + 20rem);
+      }
+
+      //   height: 100%;
+      img {
+        display: block;
+        width: auto;
+        height: 100%;
+        margin-left: auto;
+      }
+    }
+  }
+}

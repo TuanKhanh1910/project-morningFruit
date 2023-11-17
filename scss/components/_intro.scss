@@ -1,0 +1,18 @@
+.intro {
+  padding: 8rem 0;
+  .container {
+    @media screen and (min-width: 1200px) and (max-width: 1727px) {
+      margin: unset;
+      margin-left: auto;
+    }
+  }
+  &-img {
+    padding-top: calc((350 / 1200) * 100%);
+    position: relative;
+    border-radius: 1.2rem;
+    overflow: hidden;
+    img {
+      @include Img;
+    }
+  }
+}

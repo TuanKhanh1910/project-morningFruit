@@ -1,0 +1,246 @@
+.footer {
+  padding: 8rem 0;
+  // background-image: url("../../assets/images/bg_footer.png");
+  // background-position: center;
+  // background-repeat: no-repeat;
+  // background-size: cover;
+  min-height: calc(777 / 1728 * 100vw);
+  position: relative;
+  &-img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    transform: translate(-50%, -50%);
+    z-index: -2;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+  &-top,
+  &-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    @include max(1000px) {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  &-top {
+    margin-bottom: 5.5rem;
+  }
+  &-wrap {
+    gap: 4rem;
+    &-text {
+      font-size: 3.2rem;
+      font-weight: 700;
+      color: $color-pri;
+    }
+  }
+  &-search {
+    flex: 1;
+    form {
+      //   width: 100%;
+      width: 43.6rem;
+      max-width: 100%;
+      @include max(500px) {
+        width: 30rem;
+        max-width: 100%;
+      }
+    }
+    &-wrap {
+      position: relative;
+      width: 100%;
+      input {
+        width: 100%;
+        outline-color: #fde2d9;
+        display: block;
+        padding: 1.2rem 1.6rem;
+        border-radius: 1.2rem;
+        border: 0.1rem solid #fde2d9;
+        padding-right: 5rem;
+        font-size: 1.4rem;
+        font-weight: 500;
+        transition: 0.3s ease-in-out;
+        background-color: white;
+      }
+    }
+    &-icon {
+      position: absolute;
+      top: 23%;
+      right: 1.5rem;
+      .fa-paper-plane {
+        color: $color-pri;
+      }
+    }
+  }
+  &-row {
+    --col-gap: 4.8rem;
+    @include max(1200px) {
+      --col-gap: 2.4rem;
+    }
+    @include max(800px) {
+      --col-gap: 1.2rem;
+    }
+  }
+  .col {
+    @include max(1200px) {
+      width: 50%;
+    }
+    @include max(720px) {
+      width: 100%;
+    }
+  }
+  .footer-item {
+    &:last-child {
+      text-align: right;
+      @include max(1200px) {
+        text-align: left;
+      }
+    }
+    .title {
+      font-size: 1.6rem;
+      font-weight: 700;
+      color: rgba(54, 54, 54, 1);
+      margin-bottom: 1.6rem;
+    }
+    .text {
+      margin-bottom: 2.4rem;
+      &:nth-child(2) {
+        margin-bottom: 0.8rem;
+      }
+    }
+  }
+  &-service {
+    margin-bottom: 2.4rem;
+    .text-item {
+      font-size: 1.4rem;
+      font-weight: 700;
+      color: rgba(102, 102, 102, 1);
+      margin-bottom: 0.9rem;
+      .fa-solid {
+        color: rgba(243, 111, 63, 1);
+        margin-right: 0.6rem;
+      }
+    }
+  }
+  &-branch {
+    display: flex;
+    gap: 2.4rem;
+    margin-bottom: 0.9rem;
+    &-item {
+      cursor: pointer;
+      font-weight: 700;
+      color: rgba(102, 102, 102, 1);
+      font-size: 1.4rem;
+    }
+  }
+  &-branchDetails {
+    .adress {
+      font-size: 1.4rem;
+      font-weight: 500;
+      color: rgba(102, 102, 102, 1);
+      margin-bottom: 2rem;
+    }
+    .tabItem-phone {
+      margin-bottom: 1.6rem;
+      .text-icon {
+        font-size: 1.4rem;
+        font-weight: 700;
+        color: rgba(102, 102, 102, 1);
+        margin-bottom: 0.8rem;
+        .fa-phone {
+          color: rgba(243, 111, 63, 1);
+          margin-right: 0.6rem;
+        }
+      }
+      .number {
+        font-size: 1.4rem;
+        font-weight: 500;
+        color: rgba(102, 102, 102, 1);
+      }
+    }
+    .tabItem-email {
+      .text-email {
+        font-size: 1.4rem;
+        font-weight: 700;
+        color: rgba(102, 102, 102, 1);
+        margin-bottom: 0.8rem;
+        .fa-envelope {
+          color: rgba(243, 111, 63, 1);
+          margin-right: 0.6rem;
+        }
+      }
+      .text {
+        font-size: 1.4rem;
+        font-weight: 500;
+        color: rgba(102, 102, 102, 1);
+      }
+    }
+  }
+  &-tabItem {
+    &:nth-child(even) {
+      display: none;
+      opacity: 0;
+    }
+  }
+  &-internet {
+    .internet-text {
+      font-size: 1.6rem;
+      font-weight: 700;
+      color: rgba(54, 54, 54, 1);
+      margin-bottom: 1.6rem;
+    }
+    .mxh {
+      display: flex;
+      gap: 1.2rem;
+      &-item {
+        cursor: pointer;
+        width: 4rem;
+        height: 4rem;
+        border-radius: 0.8rem;
+        border: 1px solid $color-pri;
+      }
+      &-icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        transform: translate(0%, 40%);
+        .fa-brands {
+          color: $color-pri;
+          font-size: 2.1rem;
+        }
+      }
+    }
+  }
+  &-contact {
+    &-item {
+      display: block;
+      font-size: 1.4rem;
+      font-weight: 700;
+      color: rgba(102, 102, 102, 1);
+      transition: all 0.5s;
+      &:hover {
+        color: $color-pri;
+      }
+      &:not(:last-child) {
+        margin-bottom: 0.8rem;
+      }
+    }
+  }
+  &-policy {
+    .policy-item {
+      font-size: 1.4rem;
+      font-weight: 700;
+      color: rgba(102, 102, 102, 1);
+      &:not(:last-child) {
+        margin-bottom: 0.8rem;
+      }
+    }
+  }
+}

@@ -1,0 +1,3117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/backdoor.css" />
+    <link rel="icon" type="image/png" href="./assets/images/morning.png" />
+    <title>Morning FRUIT</title>
+  </head>
+  <body>
+    <header class="header" id="headerFruit">
+      <div class="container">
+        <div class="header-wrap">
+          <div class="header-logo">
+            <div class="header-logo-inner">
+              <a href="#" class="header-img">
+                <img src="./assets/images/morning.png" alt="" />
+              </a>
+            </div>
+          </div>
+          <div class="header-right">
+            <div class="header-top">
+              <div class="header-search">
+                <form class="searchForm">
+                  <div class="header-search-wrap">
+                    <input
+                      class="input-search"
+                      type="text"
+                      placeholder="Nhập từ khóa tìm kiếm..."
+                    />
+                    <div class="header-search-icon">
+                      <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <div class="header-content">
+                <!-- <div class="header-content-iconSearch">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </div> -->
+                <a href="#" class="header-content-phone header-content-item">
+                  <span class="icon">
+                    <img src="./assets/images/phone.png" alt="" />
+                  </span>
+                  <span class="text-content">
+                    <span class="text c-text fw-5">Hotline</span>
+                    <span class="text c-or fw-7">0865660775</span>
+                  </span>
+                </a>
+                <a href="#" class="header-content-user header-content-item">
+                  <span class="icon">
+                    <i class="fa-solid fa-user"></i>
+                  </span>
+                  <span class="text-content">
+                    <span class="text c-text fw-5">Tài khoản</span>
+                    <span class="text c-red fw-7">Đăng nhập</span>
+                  </span>
+                </a>
+                <a href="#" class="header-content-shoping header-content-item">
+                  <span class="icon">
+                    <img src="./assets/images/shop.png" alt="" />
+                  </span>
+                  <span class="text-content">
+                    <span class="text c-text fw-5">Giỏ hàng</span>
+                    <span class="text c-green fw-7">02 Sản phẩm</span>
+                  </span>
+                </a>
+                <div class="header-content-allFruit" id="showSidebar">
+                  <img src="./assets/images/allFruit.png" alt="" />
+                </div>
+              </div>
+              <div class="header__burger">
+                <div class="icon__bar" id="icon__bar">
+                  <label for="menu_checkbox" class="icon__bar-label">
+                    <div class="icon_bar-text"></div>
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div class="header-bottom">
+              <div class="header-nav">
+                <div class="menu-nav">
+                  <ul class="menu-list">
+                    <li class="menu-item">
+                      <a href="#" class="menu-link">Trang chủ</a>
+                    </li>
+                    <li class="menu-item dropdown">
+                      <a href="#" class="menu-link">Giới thiệu </a>
+                    </li>
+                    <li class="menu-item">
+                      <a href="#" class="menu-link">Chính sách</a>
+                    </li>
+                    <li class="menu-item">
+                      <a href="#" class="menu-link">Thanh toán</a>
+                    </li>
+                    <li class="menu-item">
+                      <a href="#" class="menu-link">Dịch vụ doanh nghiệp</a>
+                    </li>
+                    <li class="menu-item">
+                      <a href="# " class="menu-link">Chăm sóc khách hàng</a>
+                    </li>
+                    <li class="menu-item">
+                      <a href="# " class="menu-link">Hướng dẫn mua hàng</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="mobile-overlay"></div>
+      <div class="mobile">
+        <div class="mobile-con">
+          <div class="mobile-content">
+            <div class="mobile-nav">
+              <div class="mobile-menu-nav">
+                <ul class="mobile-menu-list">
+                  <li class="menu-item">
+                    <a href="" class="mobile__menu-link">Trang chủ</a>
+                  </li>
+                  <li class="menu-item dropdown">
+                    <a class="mobile__menu-link" href="#"
+                      >Giới thiệu
+                      <div class="menu-link-icon">
+                        <i class="fa-solid fa-angle-right"></i>
+                      </div>
+                    </a>
+                    <ul class="drop-menu" id="mobile__drop-menu">
+                      <li class="drop-item">
+                        <a href="#" class="drop-link">
+                          Lorem ipsum dolor sit.
+                        </a>
+                      </li>
+                      <li class="drop-item">
+                        <a href="#" class="drop-link">
+                          Lorem ipsum dolor sit.
+                        </a>
+                      </li>
+                      <li class="drop-item">
+                        <a href="#" class="drop-link">
+                          Lorem ipsum dolor sit.
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+
+                  <li class="menu-item dropdown" id="mobile__menu-item">
+                    <a class="mobile__menu-link" href="#"
+                      >Chính sách
+                      <div class="menu-link-icon">
+                        <i class="fa-solid fa-angle-right"></i>
+                      </div>
+                    </a>
+                    <ul class="drop-menu" id="mobile__drop-menu">
+                      <li class="drop-item">
+                        <a href="#" class="drop-link">
+                          Lorem ipsum dolor sit.
+                        </a>
+                      </li>
+                      <li class="drop-item">
+                        <a href="#" class="drop-link">
+                          Lorem ipsum dolor sit.
+                        </a>
+                      </li>
+                      <li class="drop-item">
+                        <a href="#" class="drop-link">
+                          Lorem ipsum dolor sit.
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="menu-item">
+                    <a href="" class="mobile__menu-link">Thanh toán</a>
+                  </li>
+                  <li class="menu-item dropdown" id="mobile__menu-item">
+                    <a class="mobile__menu-link" href="#"
+                      >Dịch vụ doanh nghiệp
+                      <div class="menu-link-icon">
+                        <i class="fa-solid fa-angle-right"></i>
+                      </div>
+                    </a>
+                    <ul class="drop-menu" id="mobile__drop-menu">
+                      <li class="drop-item">
+                        <a href="#" class="drop-link">
+                          Lorem ipsum dolor sit.
+                        </a>
+                      </li>
+                      <li class="drop-item">
+                        <a href="#" class="drop-link">
+                          Lorem ipsum dolor sit.
+                        </a>
+                      </li>
+                      <li class="drop-item">
+                        <a href="#" class="drop-link">
+                          Lorem ipsum dolor sit.
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="menu-item">
+                    <a href="" class="mobile__menu-link">Chăm sóc khách hàng</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="" class="mobile__menu-link">Hướng dẫn mua hàng</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="mobile-user">
+          <a href="#" class="mobile-user-btn mobile-user-login">
+            <span class="text">Đăng nhập</span>
+          </a>
+          <a href="#" class="mobile-user-btn mobile-user-signUp">
+            <span class="text">Đăng ký</span>
+          </a>
+        </div>
+        <div class="mobile-contact">
+          <h2 class="contact-heading t-up">Thông tin:</h2>
+          <div class="contact-content">
+            <div class="mb-16s">
+              <p class="content-text fw-7">Địa chỉ:</p>
+              <p class="content-text c-pri">
+                Lầu 1, 43 Nguyễn Thái Học, phường Cầu Ông Lãnh, quận 1, TP. Hồ
+                Chí Minh.
+              </p>
+            </div>
+            <div class="mb-16s">
+              <p class="content-text fw-7">Hotline:</p>
+              <a href="#" class="content-text c-pri">
+                0865660775 | 0327400880
+              </a>
+            </div>
+            <div class="mb-16s">
+              <p class="content-text fw-7">Email:</p>
+              <a href="#" class="content-text c-pri">
+                hello@morningfruit.com.vn
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="mobile-internet">
+          <a href="#" class="mobile-internet-link internet-facebook">
+            <i class="fa-brands fa-facebook-f"></i>
+          </a>
+          <a href="#" class="mobile-internet-link internet-ins">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a href="#" class="mobile-internet-link internet-zalo">
+            <img src="./assets/images/zalo.png" alt="" />
+          </a>
+        </div>
+      </div>
+    </header>
+    <div class="sidebar">
+      <div class="sidebar-wrap">
+        <div class="sidebar-top">
+          <div class="sidebar-icon">
+            <div class="sidebar-btn">
+              <div class="sidebar-btn-inner">
+                <img src="./assets/images/allFruit.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="sidebar-text">
+            <a href="#" class="text"> Tất cả trái cây </a>
+          </div>
+        </div>
+        <div class="sidebar-bottom">
+          <div class="sidebar-menu">
+            <ul class="sidebar-list">
+              <li class="sidebar-item dropdown">
+                <a href="" class="sidebar-link"
+                  >Trái cây Việt Nam
+                  <div class="sidebar-link-icon">
+                    <i class="fa-solid fa-angle-right"></i>
+                  </div>
+                </a>
+                <ul class="drop-menu" id="sidebar__drop-menu">
+                  <li class="drop-item">
+                    <a href="#" class="drop-link"> Lorem ipsum dolor sit. </a>
+                  </li>
+                  <li class="drop-item">
+                    <a href="#" class="drop-link"> Lorem ipsum dolor sit. </a>
+                  </li>
+                  <li class="drop-item">
+                    <a href="#" class="drop-link"> Lorem ipsum dolor sit. </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="sidebar-item dropdown">
+                <a class="sidebar-link" href="#"
+                  >Trái cây nhập khẩu
+                  <div class="sidebar-link-icon">
+                    <i class="fa-solid fa-angle-right"></i>
+                  </div>
+                </a>
+                <ul class="drop-menu" id="sidebar__drop-menu">
+                  <li class="drop-item">
+                    <a href="#" class="drop-link"> Lorem ipsum dolor sit. </a>
+                  </li>
+                  <li class="drop-item">
+                    <a href="#" class="drop-link"> Lorem ipsum dolor sit. </a>
+                  </li>
+                  <li class="drop-item">
+                    <a href="#" class="drop-link"> Lorem ipsum dolor sit. </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="sidebar-item dropdown" id="sidebar-item">
+                <a class="sidebar-link" href="#"
+                  >Trái cây sấy khô
+                  <div class="sidebar-link-icon">
+                    <i class="fa-solid fa-angle-right"></i>
+                  </div>
+                </a>
+                <ul class="drop-menu" id="sidebar__drop-menu">
+                  <li class="drop-item">
+                    <a href="#" class="drop-link"> Lorem ipsum dolor sit. </a>
+                  </li>
+                  <li class="drop-item">
+                    <a href="#" class="drop-link"> Lorem ipsum dolor sit. </a>
+                  </li>
+                  <li class="drop-item">
+                    <a href="#" class="drop-link"> Lorem ipsum dolor sit. </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="sidebar-item dropdown">
+                <a href="" class="sidebar-link"
+                  >Quà tặng trái cây
+                  <div class="sidebar-link-icon">
+                    <i class="fa-solid fa-angle-right"></i>
+                  </div>
+                </a>
+                <ul class="drop-menu" id="sidebar__drop-menu">
+                  <li class="drop-item">
+                    <a href="#" class="drop-link"> Lorem ipsum dolor sit. </a>
+                  </li>
+                  <li class="drop-item">
+                    <a href="#" class="drop-link"> Lorem ipsum dolor sit. </a>
+                  </li>
+                  <li class="drop-item">
+                    <a href="#" class="drop-link"> Lorem ipsum dolor sit. </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="sidebar-item dropdown" id="sidebar-item">
+                <a class="sidebar-link" href="#"
+                  >Trái cây cắt sẵn
+                  <div class="sidebar-icon">
+                    <i class="fa-solid fa-angle-right"></i>
+                  </div>
+                </a>
+                <ul class="drop-menu" id="sidebar__drop-menu">
+                  <li class="drop-item">
+                    <a href="#" class="drop-link"> Lorem ipsum dolor sit. </a>
+                  </li>
+                  <li class="drop-item">
+                    <a href="#" class="drop-link"> Lorem ipsum dolor sit. </a>
+                  </li>
+                  <li class="drop-item">
+                    <a href="#" class="drop-link"> Lorem ipsum dolor sit. </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="sidebar-item dropdown">
+                <a href="" class="sidebar-link"
+                  >Nước ép nguyên chất
+                  <div class="sidebar-link-icon">
+                    <i class="fa-solid fa-angle-right"></i>
+                  </div>
+                </a>
+                <ul class="drop-menu" id="sidebar__drop-menu">
+                  <li class="drop-item">
+                    <a href="#" class="drop-link"> Lorem ipsum dolor sit. </a>
+                  </li>
+                  <li class="drop-item">
+                    <a href="#" class="drop-link"> Lorem ipsum dolor sit. </a>
+                  </li>
+                  <li class="drop-item">
+                    <a href="#" class="drop-link"> Lorem ipsum dolor sit. </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="sidebar-item dropdown">
+                <a href="" class="sidebar-link"
+                  >Mâm ngũ quả
+                  <div class="sidebar-link-icon">
+                    <i class="fa-solid fa-angle-right"></i>
+                  </div>
+                </a>
+                <ul class="drop-menu" id="sidebar__drop-menu">
+                  <li class="drop-item">
+                    <a href="#" class="drop-link"> Lorem ipsum dolor sit. </a>
+                  </li>
+                  <li class="drop-item">
+                    <a href="#" class="drop-link"> Lorem ipsum dolor sit. </a>
+                  </li>
+                  <li class="drop-item">
+                    <a href="#" class="drop-link"> Lorem ipsum dolor sit. </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="sidebar-item dropdown">
+                <a href="" class="sidebar-link"
+                  >Dịch vụ doanh nghiệp
+                  <div class="sidebar-link-icon">
+                    <i class="fa-solid fa-angle-right"></i>
+                  </div>
+                </a>
+                <ul class="drop-menu" id="sidebar__drop-menu">
+                  <li class="drop-item">
+                    <a href="#" class="drop-link"> Lorem ipsum dolor sit. </a>
+                  </li>
+                  <li class="drop-item">
+                    <a href="#" class="drop-link"> Lorem ipsum dolor sit. </a>
+                  </li>
+                  <li class="drop-item">
+                    <a href="#" class="drop-link"> Lorem ipsum dolor sit. </a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <main class="main">
+      <!-- banner -->
+      <div class="sec-banner">
+        <div class="banner">
+          <div class="container">
+            <div class="banner-slider">
+              <div class="banner-swiper swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                  <!-- Slides -->
+                  <div class="swiper-slide">
+                    <div class="banner-inner">
+                      <div class="banner-img">
+                        <img src="./assets/images/banner.png" alt="" />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="banner-inner">
+                      <div class="banner-img">
+                        <img src="./assets/images/banner.png" alt="" />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="banner-inner">
+                      <div class="banner-img">
+                        <img src="./assets/images/banner.png" alt="" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- <div thumbsSlider="" class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <img src="./assets/images/banner.png" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="./assets/images/banner.png" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="./assets/images/banner.png" />
+                  </div>
+                </div>
+              </div> -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- discount -->
+      <div class="sec-discount">
+        <div class="discount">
+          <div class="container">
+            <div class="discount-content">
+              <div class="discount-details row">
+                <div class="discount-item col">
+                  <div class="discount-wrap one">
+                    <div class="discount-top">
+                      <h3 class="title">Miễn phí giao hàng</h3>
+                      <p class="text">
+                        Miễn phí giao hàng cho hoá đơn trên 50K
+                      </p>
+                    </div>
+                    <div class="discount-bottom">
+                      <div class="discount-hastag">
+                        <p class="hastag-text">#MIENPHIGH</p>
+                      </div>
+                      <a href="#" class="saveDiscount">
+                        <span class="text">Lưu mã</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="discount-item col">
+                  <div class="discount-wrap two">
+                    <div class="discount-top">
+                      <h3 class="title">Tặng bạn mới mã 200k</h3>
+                      <p class="text">
+                        Miễn phí giao hàng cho hoá đơn trên 50K
+                      </p>
+                    </div>
+                    <div class="discount-bottom">
+                      <div class="discount-hastag">
+                        <p class="hastag-text">#MIENPHIGH</p>
+                      </div>
+                      <a href="#" class="saveDiscount">
+                        <span class="text">Lưu mã</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="discount-item col">
+                  <div class="discount-wrap three">
+                    <div class="discount-top">
+                      <h3 class="title">Siêu khuyến mãi đến 90%</h3>
+                      <p class="text">
+                        Miễn phí giao hàng cho hoá đơn trên 50K
+                      </p>
+                    </div>
+                    <div class="discount-bottom">
+                      <div class="discount-hastag">
+                        <p class="hastag-text">#MIENPHIGH</p>
+                      </div>
+                      <a href="#" class="saveDiscount">
+                        <span class="text">Lưu mã</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="discount-item col">
+                  <div class="discount-wrap four">
+                    <div class="discount-top">
+                      <h3 class="title">Miễn phí giao hàng</h3>
+                      <p class="text">
+                        Miễn phí giao hàng cho hoá đơn trên 50K
+                      </p>
+                    </div>
+                    <div class="discount-bottom">
+                      <div class="discount-hastag">
+                        <p class="hastag-text">#MIENPHIGH</p>
+                      </div>
+                      <a href="#" class="saveDiscount">
+                        <span class="text">Lưu mã</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="discount-item col">
+                  <div class="discount-wrap five">
+                    <div class="discount-top">
+                      <h3 class="title">Miễn phí giao hàng</h3>
+                      <p class="text">
+                        Miễn phí giao hàng cho hoá đơn trên 50K
+                      </p>
+                    </div>
+                    <div class="discount-bottom">
+                      <div class="discount-hastag">
+                        <p class="hastag-text">#MIENPHIGH</p>
+                      </div>
+                      <a href="#" class="saveDiscount">
+                        <span class="text">Lưu mã</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- product -->
+      <div class="sec-product">
+        <div class="product">
+          <div class="container">
+            <span class="subTitle">SẢN PHẨM MỚI</span>
+            <div class="product-main">
+              <h1 class="product-title">Trái ngon mới về</h1>
+              <a href="#" class="product-btn">
+                <span class="text">Xem thêm</span>
+                <i class="ti-arrow-circle-right"></i>
+              </a>
+            </div>
+            <div class="product-list row">
+              <div class="product-item col">
+                <div class="product-wrap">
+                  <div class="product-img">
+                    <img src="./assets/images/product_1.png" alt="" />
+                  </div>
+                  <h2 class="product-name">Cherry đỏ Mỹ size 8.5</h2>
+                  <div class="product-sub">
+                    <div class="product-discount">
+                      <p class="number">-20%</p>
+                    </div>
+                    <div class="product-bestSeller">
+                      <p class="bestSeller">Bán chạy</p>
+                    </div>
+                  </div>
+                  <div class="product-content">
+                    <div class="product-price">
+                      <div class="left">
+                        <span class="number">45,000đ</span>
+                        <span class="number-main">45,000đ</span>
+                      </div>
+                      <div class="right">
+                        <div class="product-plus">
+                          <i class="fa-solid fa-plus"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product-item col">
+                <div class="product-wrap">
+                  <div class="product-img">
+                    <img src="./assets/images/product_1.png" alt="" />
+                  </div>
+                  <h2 class="product-name">
+                    Táo Rockit New Zealand (Lốc 4 trái, 372GR)
+                  </h2>
+                  <div class="product-sub">
+                    <div class="product-discount">
+                      <p class="number">-20%</p>
+                    </div>
+                    <div class="product-bestSeller">
+                      <p class="bestSeller">Bán chạy</p>
+                    </div>
+                  </div>
+                  <div class="product-content">
+                    <div class="product-price">
+                      <div class="left">
+                        <span class="number">45,000đ</span>
+                        <span class="number-main">45,000đ</span>
+                      </div>
+                      <div class="right">
+                        <a href="#" class="product-plus">
+                          <i class="fa-solid fa-plus"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product-item col">
+                <div class="product-wrap">
+                  <div class="product-img">
+                    <img src="./assets/images/product_1.png" alt="" />
+                  </div>
+                  <h2 class="product-name">
+                    Táo Rockit New Zealand (Lốc 4 trái, 372GR)
+                  </h2>
+                  <div class="product-sub">
+                    <div class="product-discount">
+                      <p class="number">-20%</p>
+                    </div>
+                    <div class="product-bestSeller">
+                      <p class="bestSeller">Bán chạy</p>
+                    </div>
+                  </div>
+                  <div class="product-content">
+                    <div class="product-price">
+                      <div class="left">
+                        <span class="number">45,000đ</span>
+                        <span class="number-main">45,000đ</span>
+                      </div>
+                      <div class="right">
+                        <div class="product-plus">
+                          <i class="fa-solid fa-plus"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product-item col">
+                <div class="product-wrap">
+                  <div class="product-img">
+                    <img src="./assets/images/product_1.png" alt="" />
+                  </div>
+                  <h2 class="product-name">
+                    Nho mẫu đơn Hàn Quốc (chùm trên 1KG)
+                  </h2>
+                  <div class="product-sub">
+                    <div class="product-discount">
+                      <p class="number">-20%</p>
+                    </div>
+                    <div class="product-bestSeller">
+                      <p class="bestSeller">Bán chạy</p>
+                    </div>
+                  </div>
+                  <div class="product-content">
+                    <div class="product-price">
+                      <div class="left">
+                        <span class="number">45,000đ</span>
+                        <span class="number-main">45,000đ</span>
+                      </div>
+                      <div class="right">
+                        <div class="product-plus">
+                          <i class="fa-solid fa-plus"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product-item col">
+                <div class="product-wrap">
+                  <div class="product-img">
+                    <img src="./assets/images/product_1.png" alt="" />
+                  </div>
+                  <h2 class="product-name">Cherry đỏ Mỹ size 8.5</h2>
+                  <div class="product-sub">
+                    <div class="product-discount">
+                      <p class="number">-20%</p>
+                    </div>
+                    <div class="product-bestSeller">
+                      <p class="bestSeller">Bán chạy</p>
+                    </div>
+                  </div>
+                  <div class="product-content">
+                    <div class="product-price">
+                      <div class="left">
+                        <span class="number">45,000đ</span>
+                        <span class="number-main">45,000đ</span>
+                      </div>
+                      <div class="right">
+                        <div class="product-plus">
+                          <i class="fa-solid fa-plus"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product-item col">
+                <div class="product-wrap">
+                  <div class="product-img">
+                    <img src="./assets/images/product_1.png" alt="" />
+                  </div>
+                  <h2 class="product-name">Cherry đỏ Mỹ size 8.5</h2>
+                  <div class="product-sub">
+                    <div class="product-discount">
+                      <p class="number">-20%</p>
+                    </div>
+                    <div class="product-bestSeller">
+                      <p class="bestSeller">Bán chạy</p>
+                    </div>
+                  </div>
+                  <div class="product-content">
+                    <div class="product-price">
+                      <div class="left">
+                        <span class="number">45,000đ</span>
+                        <span class="number-main">45,000đ</span>
+                      </div>
+                      <div class="right">
+                        <div class="product-plus">
+                          <i class="fa-solid fa-plus"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product-item col">
+                <div class="product-wrap">
+                  <div class="product-img">
+                    <img src="./assets/images/product_1.png" alt="" />
+                  </div>
+                  <h2 class="product-name">Cherry đỏ Mỹ size 8.5</h2>
+                  <div class="product-sub">
+                    <div class="product-discount">
+                      <p class="number">-20%</p>
+                    </div>
+                    <div class="product-bestSeller">
+                      <p class="bestSeller">Bán chạy</p>
+                    </div>
+                  </div>
+                  <div class="product-content">
+                    <div class="product-price">
+                      <div class="left">
+                        <span class="number">45,000đ</span>
+                        <span class="number-main">45,000đ</span>
+                      </div>
+                      <div class="right">
+                        <div class="product-plus">
+                          <i class="fa-solid fa-plus"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product-item col">
+                <div class="product-wrap">
+                  <div class="product-img">
+                    <img src="./assets/images/product_1.png" alt="" />
+                  </div>
+                  <h2 class="product-name">Cherry đỏ Mỹ size 8.5</h2>
+                  <div class="product-sub">
+                    <div class="product-discount">
+                      <p class="number">-20%</p>
+                    </div>
+                    <div class="product-bestSeller">
+                      <p class="bestSeller">Bán chạy</p>
+                    </div>
+                  </div>
+                  <div class="product-content">
+                    <div class="product-price">
+                      <div class="left">
+                        <span class="number">45,000đ</span>
+                        <span class="number-main">45,000đ</span>
+                      </div>
+                      <div class="right">
+                        <div class="product-plus">
+                          <i class="fa-solid fa-plus"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product-item col">
+                <div class="product-wrap">
+                  <div class="product-img">
+                    <img src="./assets/images/product_1.png" alt="" />
+                  </div>
+                  <h2 class="product-name">Cherry đỏ Mỹ size 8.5</h2>
+                  <div class="product-sub">
+                    <div class="product-discount">
+                      <p class="number">-20%</p>
+                    </div>
+                    <div class="product-bestSeller">
+                      <p class="bestSeller">Bán chạy</p>
+                    </div>
+                  </div>
+                  <div class="product-content">
+                    <div class="product-price">
+                      <div class="left">
+                        <span class="number">45,000đ</span>
+                        <span class="number-main">45,000đ</span>
+                      </div>
+                      <div class="right">
+                        <div class="product-plus">
+                          <i class="fa-solid fa-plus"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product-item col">
+                <div class="product-wrap">
+                  <div class="product-img">
+                    <img src="./assets/images/product_1.png" alt="" />
+                  </div>
+                  <h2 class="product-name">Cherry đỏ Mỹ size 8.5</h2>
+                  <div class="product-sub">
+                    <div class="product-discount">
+                      <p class="number">-20%</p>
+                    </div>
+                    <div class="product-bestSeller">
+                      <p class="bestSeller">Bán chạy</p>
+                    </div>
+                  </div>
+                  <div class="product-content">
+                    <div class="product-price">
+                      <div class="left">
+                        <span class="number">45,000đ</span>
+                        <span class="number-main">45,000đ</span>
+                      </div>
+                      <div class="right">
+                        <div class="product-plus">
+                          <i class="fa-solid fa-plus"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- slider -->
+      <div class="sec-slider">
+        <div class="slider">
+          <div class="slider-bgTop slider-img">
+            <img src="./assets/images/slider_top.png" alt="" />
+            <!-- <img src="./assets/images/slider-bg.png" alt="" /> -->
+          </div>
+          <div class="container">
+            <div class="slider-content">
+              <div class="slider-top">
+                <div class="left">
+                  <span class="discount">SẢN PHẨM KHUYẾN MÃI</span>
+                  <h1 class="slider-title">Giá tốt mỗi ngày</h1>
+                </div>
+                <div class="right">
+                  <div class="slider-time">
+                    <div class="thunder-img">
+                      <img src="./assets/images/thunder.png" alt="" />
+                    </div>
+                    <div class="time-list">
+                      <div class="time-item">
+                        <div class="time-content">
+                          <p class="time-number">14</p>
+                        </div>
+                      </div>
+                      <div class="time-item">
+                        <div class="time-img">
+                          <img src="./assets/images/dotted.png" alt="" />
+                        </div>
+                      </div>
+                      <div class="time-item">
+                        <div class="time-content">
+                          <p class="time-number">02</p>
+                        </div>
+                      </div>
+                      <div class="time-item">
+                        <div class="time-img">
+                          <img src="./assets/images/dotted.png" alt="" />
+                        </div>
+                      </div>
+                      <div class="time-item">
+                        <div class="time-content">
+                          <p class="time-number">00</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="slider-bottom">
+                <div class="swiper sliderSwiper">
+                  <!-- Additional required wrapper -->
+                  <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                      <div class="slider-wrap">
+                        <div class="slider-wrap-img">
+                          <img src="./assets/images/product_1.png" alt="" />
+                        </div>
+                        <h2 class="slider-name">Cherry đỏ Mỹ size 8.5</h2>
+                        <div class="slider-sub">
+                          <div class="slider-discount">
+                            <p class="number">-20%</p>
+                          </div>
+                          <div class="slider-bestSeller">
+                            <p class="bestSeller">Bán chạy</p>
+                          </div>
+                        </div>
+                        <div class="slider-content">
+                          <div class="slider-price">
+                            <div class="left">
+                              <span class="number">45,000đ</span>
+                              <span class="number-main">45,000đ</span>
+                            </div>
+                            <div class="right">
+                              <div class="slider-plus">
+                                <i class="fa-solid fa-plus"></i>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- <div class="slider-Gear">
+                            <a href="#" class="slider-btn">
+                              <div class="gear-img">
+                                <img src="./assets/images/gear.png" alt="" />
+                              </div>
+                              <span class="text">Giảm sốc</span>
+                            </a>
+                          </div> -->
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="slider-wrap">
+                        <div class="slider-wrap-img">
+                          <img src="./assets/images/product_1.png" alt="" />
+                        </div>
+                        <h2 class="slider-name">Cherry đỏ Mỹ size 8.5</h2>
+                        <div class="slider-sub">
+                          <div class="slider-discount">
+                            <p class="number">-20%</p>
+                          </div>
+                          <div class="slider-bestSeller">
+                            <p class="bestSeller">Bán chạy</p>
+                          </div>
+                        </div>
+                        <div class="slider-content">
+                          <div class="slider-price">
+                            <div class="left">
+                              <span class="number">45,000đ</span>
+                              <span class="number-main">45,000đ</span>
+                            </div>
+                            <div class="right">
+                              <div class="slider-plus">
+                                <i class="fa-solid fa-plus"></i>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- <div class="slider-Gear">
+                            <a href="#" class="slider-btn">
+                              <div class="gear-img">
+                                <img src="./assets/images/gear.png" alt="" />
+                              </div>
+                              <span class="text">Giảm sốc</span>
+                            </a>
+                          </div> -->
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="slider-wrap">
+                        <div class="slider-wrap-img">
+                          <img src="./assets/images/product_1.png" alt="" />
+                        </div>
+                        <h2 class="slider-name">Cherry đỏ Mỹ size 8.5</h2>
+                        <div class="slider-sub">
+                          <div class="slider-discount">
+                            <p class="number">-20%</p>
+                          </div>
+                          <div class="slider-bestSeller">
+                            <p class="bestSeller">Bán chạy</p>
+                          </div>
+                        </div>
+                        <div class="slider-content">
+                          <div class="slider-price">
+                            <div class="left">
+                              <span class="number">45,000đ</span>
+                              <span class="number-main">45,000đ</span>
+                            </div>
+                            <div class="right">
+                              <div class="slider-plus">
+                                <i class="fa-solid fa-plus"></i>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- <div class="slider-Gear">
+                            <a href="#" class="slider-btn">
+                              <div class="gear-img">
+                                <img src="./assets/images/gear.png" alt="" />
+                              </div>
+                              <span class="text">Giảm sốc</span>
+                            </a>
+                          </div> -->
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="slider-wrap">
+                        <div class="slider-wrap-img">
+                          <img src="./assets/images/product_1.png" alt="" />
+                        </div>
+                        <h2 class="slider-name">Cherry đỏ Mỹ size 8.5</h2>
+                        <div class="slider-sub">
+                          <div class="slider-discount">
+                            <p class="number">-20%</p>
+                          </div>
+                          <div class="slider-bestSeller">
+                            <p class="bestSeller">Bán chạy</p>
+                          </div>
+                        </div>
+                        <div class="slider-content">
+                          <div class="slider-price">
+                            <div class="left">
+                              <span class="number">45,000đ</span>
+                              <span class="number-main">45,000đ</span>
+                            </div>
+                            <div class="right">
+                              <div class="slider-plus">
+                                <i class="fa-solid fa-plus"></i>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- <div class="slider-Gear">
+                            <a href="#" class="slider-btn">
+                              <div class="gear-img">
+                                <img src="./assets/images/gear.png" alt="" />
+                              </div>
+                              <span class="text">Giảm sốc</span>
+                            </a>
+                          </div> -->
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="slider-wrap">
+                        <div class="slider-wrap-img">
+                          <img src="./assets/images/product_1.png" alt="" />
+                        </div>
+                        <h2 class="slider-name">Cherry đỏ Mỹ size 8.5</h2>
+                        <div class="slider-sub">
+                          <div class="slider-discount">
+                            <p class="number">-20%</p>
+                          </div>
+                          <div class="slider-bestSeller">
+                            <p class="bestSeller">Bán chạy</p>
+                          </div>
+                        </div>
+                        <div class="slider-content">
+                          <div class="slider-price">
+                            <div class="left">
+                              <span class="number">45,000đ</span>
+                              <span class="number-main">45,000đ</span>
+                            </div>
+                            <div class="right">
+                              <div class="slider-plus">
+                                <i class="fa-solid fa-plus"></i>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- <div class="slider-Gear">
+                            <a href="#" class="slider-btn">
+                              <div class="gear-img">
+                                <img src="./assets/images/gear.png" alt="" />
+                              </div>
+                              <span class="text">Giảm sốc</span>
+                            </a>
+                          </div> -->
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- If we need navigation buttons -->
+                  <!-- <div class="swiper-button-prev"></div>
+                  <div class="swiper-button-next"></div> -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="slider-bgBottom slider-img">
+            <img src="./assets/images/slider_bottom.png" alt="" />
+          </div>
+        </div>
+      </div>
+      <!-- Quà tặng -->
+      <div class="sec-product">
+        <div class="product">
+          <div class="container">
+            <span class="subTitle">SẢN PHẨM QUÀ TẶNG</span>
+            <div class="product-main">
+              <h1 class="product-title">Quà tặng trái cây</h1>
+              <a href="#" class="product-btn">
+                <span class="text">Xem thêm</span>
+                <i class="ti-arrow-circle-right"></i>
+              </a>
+            </div>
+            <div class="product-list row">
+              <div class="product-item col">
+                <div class="product-wrap">
+                  <div class="product-img">
+                    <img src="./assets/images/product_1.png" alt="" />
+                  </div>
+                  <h2 class="product-name">Cherry đỏ Mỹ size 8.5</h2>
+                  <div class="product-sub">
+                    <div class="product-discount">
+                      <p class="number">-20%</p>
+                    </div>
+                    <div class="product-bestSeller">
+                      <p class="bestSeller">Bán chạy</p>
+                    </div>
+                  </div>
+                  <div class="product-content">
+                    <div class="product-price">
+                      <div class="left">
+                        <span class="number">45,000đ</span>
+                        <span class="number-main">45,000đ</span>
+                      </div>
+                      <div class="right">
+                        <div class="product-plus">
+                          <i class="fa-solid fa-plus"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product-item col">
+                <div class="product-wrap">
+                  <div class="product-img">
+                    <img src="./assets/images/product_1.png" alt="" />
+                  </div>
+                  <h2 class="product-name">
+                    Táo Rockit New Zealand (Lốc 4 trái, 372GR)
+                  </h2>
+                  <div class="product-sub">
+                    <div class="product-discount">
+                      <p class="number">-20%</p>
+                    </div>
+                    <div class="product-bestSeller">
+                      <p class="bestSeller">Bán chạy</p>
+                    </div>
+                  </div>
+                  <div class="product-content">
+                    <div class="product-price">
+                      <div class="left">
+                        <span class="number">45,000đ</span>
+                        <span class="number-main">45,000đ</span>
+                      </div>
+                      <div class="right">
+                        <a href="#" class="product-plus">
+                          <i class="fa-solid fa-plus"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product-item col">
+                <div class="product-wrap">
+                  <div class="product-img">
+                    <img src="./assets/images/product_1.png" alt="" />
+                  </div>
+                  <h2 class="product-name">
+                    Táo Rockit New Zealand (Lốc 4 trái, 372GR)
+                  </h2>
+                  <div class="product-sub">
+                    <div class="product-discount">
+                      <p class="number">-20%</p>
+                    </div>
+                    <div class="product-bestSeller">
+                      <p class="bestSeller">Bán chạy</p>
+                    </div>
+                  </div>
+                  <div class="product-content">
+                    <div class="product-price">
+                      <div class="left">
+                        <span class="number">45,000đ</span>
+                        <span class="number-main">45,000đ</span>
+                      </div>
+                      <div class="right">
+                        <div class="product-plus">
+                          <i class="fa-solid fa-plus"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product-item col">
+                <div class="product-wrap">
+                  <div class="product-img">
+                    <img src="./assets/images/product_1.png" alt="" />
+                  </div>
+                  <h2 class="product-name">
+                    Nho mẫu đơn Hàn Quốc (chùm trên 1KG)
+                  </h2>
+                  <div class="product-sub">
+                    <div class="product-discount">
+                      <p class="number">-20%</p>
+                    </div>
+                    <div class="product-bestSeller">
+                      <p class="bestSeller">Bán chạy</p>
+                    </div>
+                  </div>
+                  <div class="product-content">
+                    <div class="product-price">
+                      <div class="left">
+                        <span class="number">45,000đ</span>
+                        <span class="number-main">45,000đ</span>
+                      </div>
+                      <div class="right">
+                        <div class="product-plus">
+                          <i class="fa-solid fa-plus"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product-item col">
+                <div class="product-wrap">
+                  <div class="product-img">
+                    <img src="./assets/images/product_1.png" alt="" />
+                  </div>
+                  <h2 class="product-name">Cherry đỏ Mỹ size 8.5</h2>
+                  <div class="product-sub">
+                    <div class="product-discount">
+                      <p class="number">-20%</p>
+                    </div>
+                    <div class="product-bestSeller">
+                      <p class="bestSeller">Bán chạy</p>
+                    </div>
+                  </div>
+                  <div class="product-content">
+                    <div class="product-price">
+                      <div class="left">
+                        <span class="number">45,000đ</span>
+                        <span class="number-main">45,000đ</span>
+                      </div>
+                      <div class="right">
+                        <div class="product-plus">
+                          <i class="fa-solid fa-plus"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product-item col">
+                <div class="product-wrap">
+                  <div class="product-img">
+                    <img src="./assets/images/product_1.png" alt="" />
+                  </div>
+                  <h2 class="product-name">Cherry đỏ Mỹ size 8.5</h2>
+                  <div class="product-sub">
+                    <div class="product-discount">
+                      <p class="number">-20%</p>
+                    </div>
+                    <div class="product-bestSeller">
+                      <p class="bestSeller">Bán chạy</p>
+                    </div>
+                  </div>
+                  <div class="product-content">
+                    <div class="product-price">
+                      <div class="left">
+                        <span class="number">45,000đ</span>
+                        <span class="number-main">45,000đ</span>
+                      </div>
+                      <div class="right">
+                        <div class="product-plus">
+                          <i class="fa-solid fa-plus"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product-item col">
+                <div class="product-wrap">
+                  <div class="product-img">
+                    <img src="./assets/images/product_1.png" alt="" />
+                  </div>
+                  <h2 class="product-name">Cherry đỏ Mỹ size 8.5</h2>
+                  <div class="product-sub">
+                    <div class="product-discount">
+                      <p class="number">-20%</p>
+                    </div>
+                    <div class="product-bestSeller">
+                      <p class="bestSeller">Bán chạy</p>
+                    </div>
+                  </div>
+                  <div class="product-content">
+                    <div class="product-price">
+                      <div class="left">
+                        <span class="number">45,000đ</span>
+                        <span class="number-main">45,000đ</span>
+                      </div>
+                      <div class="right">
+                        <div class="product-plus">
+                          <i class="fa-solid fa-plus"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product-item col">
+                <div class="product-wrap">
+                  <div class="product-img">
+                    <img src="./assets/images/product_1.png" alt="" />
+                  </div>
+                  <h2 class="product-name">Cherry đỏ Mỹ size 8.5</h2>
+                  <div class="product-sub">
+                    <div class="product-discount">
+                      <p class="number">-20%</p>
+                    </div>
+                    <div class="product-bestSeller">
+                      <p class="bestSeller">Bán chạy</p>
+                    </div>
+                  </div>
+                  <div class="product-content">
+                    <div class="product-price">
+                      <div class="left">
+                        <span class="number">45,000đ</span>
+                        <span class="number-main">45,000đ</span>
+                      </div>
+                      <div class="right">
+                        <div class="product-plus">
+                          <i class="fa-solid fa-plus"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product-item col">
+                <div class="product-wrap">
+                  <div class="product-img">
+                    <img src="./assets/images/product_1.png" alt="" />
+                  </div>
+                  <h2 class="product-name">Cherry đỏ Mỹ size 8.5</h2>
+                  <div class="product-sub">
+                    <div class="product-discount">
+                      <p class="number">-20%</p>
+                    </div>
+                    <div class="product-bestSeller">
+                      <p class="bestSeller">Bán chạy</p>
+                    </div>
+                  </div>
+                  <div class="product-content">
+                    <div class="product-price">
+                      <div class="left">
+                        <span class="number">45,000đ</span>
+                        <span class="number-main">45,000đ</span>
+                      </div>
+                      <div class="right">
+                        <div class="product-plus">
+                          <i class="fa-solid fa-plus"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product-item col">
+                <div class="product-wrap">
+                  <div class="product-img">
+                    <img src="./assets/images/product_1.png" alt="" />
+                  </div>
+                  <h2 class="product-name">Cherry đỏ Mỹ size 8.5</h2>
+                  <div class="product-sub">
+                    <div class="product-discount">
+                      <p class="number">-20%</p>
+                    </div>
+                    <div class="product-bestSeller">
+                      <p class="bestSeller">Bán chạy</p>
+                    </div>
+                  </div>
+                  <div class="product-content">
+                    <div class="product-price">
+                      <div class="left">
+                        <span class="number">45,000đ</span>
+                        <span class="number-main">45,000đ</span>
+                      </div>
+                      <div class="right">
+                        <div class="product-plus">
+                          <i class="fa-solid fa-plus"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Trái cây việt nam -->
+      <div class="sec-product">
+        <div class="product">
+          <div class="container">
+            <span class="subTitle">SẢN PHẨM QUÀ TẶNG</span>
+            <div class="product-main">
+              <h1 class="product-title">Trái cây Việt Nam</h1>
+              <a href="#" class="product-btn">
+                <span class="text">Xem thêm</span>
+                <i class="ti-arrow-circle-right"></i>
+              </a>
+            </div>
+            <div class="product-list row">
+              <div class="product-item col">
+                <div class="product-wrap">
+                  <div class="product-img">
+                    <img src="./assets/images/product_1.png" alt="" />
+                  </div>
+                  <h2 class="product-name">Cherry đỏ Mỹ size 8.5</h2>
+                  <div class="product-sub">
+                    <div class="product-discount">
+                      <p class="number">-20%</p>
+                    </div>
+                    <div class="product-bestSeller">
+                      <p class="bestSeller">Bán chạy</p>
+                    </div>
+                  </div>
+                  <div class="product-content">
+                    <div class="product-price">
+                      <div class="left">
+                        <span class="number">45,000đ</span>
+                        <span class="number-main">45,000đ</span>
+                      </div>
+                      <div class="right">
+                        <div class="product-plus">
+                          <i class="fa-solid fa-plus"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product-item col">
+                <div class="product-wrap">
+                  <div class="product-img">
+                    <img src="./assets/images/product_1.png" alt="" />
+                  </div>
+                  <h2 class="product-name">
+                    Táo Rockit New Zealand (Lốc 4 trái, 372GR)
+                  </h2>
+                  <div class="product-sub">
+                    <div class="product-discount">
+                      <p class="number">-20%</p>
+                    </div>
+                    <div class="product-bestSeller">
+                      <p class="bestSeller">Bán chạy</p>
+                    </div>
+                  </div>
+                  <div class="product-content">
+                    <div class="product-price">
+                      <div class="left">
+                        <span class="number">45,000đ</span>
+                        <span class="number-main">45,000đ</span>
+                      </div>
+                      <div class="right">
+                        <a href="#" class="product-plus">
+                          <i class="fa-solid fa-plus"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product-item col">
+                <div class="product-wrap">
+                  <div class="product-img">
+                    <img src="./assets/images/product_1.png" alt="" />
+                  </div>
+                  <h2 class="product-name">
+                    Táo Rockit New Zealand (Lốc 4 trái, 372GR)
+                  </h2>
+                  <div class="product-sub">
+                    <div class="product-discount">
+                      <p class="number">-20%</p>
+                    </div>
+                    <div class="product-bestSeller">
+                      <p class="bestSeller">Bán chạy</p>
+                    </div>
+                  </div>
+                  <div class="product-content">
+                    <div class="product-price">
+                      <div class="left">
+                        <span class="number">45,000đ</span>
+                        <span class="number-main">45,000đ</span>
+                      </div>
+                      <div class="right">
+                        <div class="product-plus">
+                          <i class="fa-solid fa-plus"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product-item col">
+                <div class="product-wrap">
+                  <div class="product-img">
+                    <img src="./assets/images/product_1.png" alt="" />
+                  </div>
+                  <h2 class="product-name">
+                    Nho mẫu đơn Hàn Quốc (chùm trên 1KG)
+                  </h2>
+                  <div class="product-sub">
+                    <div class="product-discount">
+                      <p class="number">-20%</p>
+                    </div>
+                    <div class="product-bestSeller">
+                      <p class="bestSeller">Bán chạy</p>
+                    </div>
+                  </div>
+                  <div class="product-content">
+                    <div class="product-price">
+                      <div class="left">
+                        <span class="number">45,000đ</span>
+                        <span class="number-main">45,000đ</span>
+                      </div>
+                      <div class="right">
+                        <div class="product-plus">
+                          <i class="fa-solid fa-plus"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product-item col">
+                <div class="product-wrap">
+                  <div class="product-img">
+                    <img src="./assets/images/product_1.png" alt="" />
+                  </div>
+                  <h2 class="product-name">Cherry đỏ Mỹ size 8.5</h2>
+                  <div class="product-sub">
+                    <div class="product-discount">
+                      <p class="number">-20%</p>
+                    </div>
+                    <div class="product-bestSeller">
+                      <p class="bestSeller">Bán chạy</p>
+                    </div>
+                  </div>
+                  <div class="product-content">
+                    <div class="product-price">
+                      <div class="left">
+                        <span class="number">45,000đ</span>
+                        <span class="number-main">45,000đ</span>
+                      </div>
+                      <div class="right">
+                        <div class="product-plus">
+                          <i class="fa-solid fa-plus"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product-item col">
+                <div class="product-wrap">
+                  <div class="product-img">
+                    <img src="./assets/images/product_1.png" alt="" />
+                  </div>
+                  <h2 class="product-name">Cherry đỏ Mỹ size 8.5</h2>
+                  <div class="product-sub">
+                    <div class="product-discount">
+                      <p class="number">-20%</p>
+                    </div>
+                    <div class="product-bestSeller">
+                      <p class="bestSeller">Bán chạy</p>
+                    </div>
+                  </div>
+                  <div class="product-content">
+                    <div class="product-price">
+                      <div class="left">
+                        <span class="number">45,000đ</span>
+                        <span class="number-main">45,000đ</span>
+                      </div>
+                      <div class="right">
+                        <div class="product-plus">
+                          <i class="fa-solid fa-plus"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product-item col">
+                <div class="product-wrap">
+                  <div class="product-img">
+                    <img src="./assets/images/product_1.png" alt="" />
+                  </div>
+                  <h2 class="product-name">Cherry đỏ Mỹ size 8.5</h2>
+                  <div class="product-sub">
+                    <div class="product-discount">
+                      <p class="number">-20%</p>
+                    </div>
+                    <div class="product-bestSeller">
+                      <p class="bestSeller">Bán chạy</p>
+                    </div>
+                  </div>
+                  <div class="product-content">
+                    <div class="product-price">
+                      <div class="left">
+                        <span class="number">45,000đ</span>
+                        <span class="number-main">45,000đ</span>
+                      </div>
+                      <div class="right">
+                        <div class="product-plus">
+                          <i class="fa-solid fa-plus"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product-item col">
+                <div class="product-wrap">
+                  <div class="product-img">
+                    <img src="./assets/images/product_1.png" alt="" />
+                  </div>
+                  <h2 class="product-name">Cherry đỏ Mỹ size 8.5</h2>
+                  <div class="product-sub">
+                    <div class="product-discount">
+                      <p class="number">-20%</p>
+                    </div>
+                    <div class="product-bestSeller">
+                      <p class="bestSeller">Bán chạy</p>
+                    </div>
+                  </div>
+                  <div class="product-content">
+                    <div class="product-price">
+                      <div class="left">
+                        <span class="number">45,000đ</span>
+                        <span class="number-main">45,000đ</span>
+                      </div>
+                      <div class="right">
+                        <div class="product-plus">
+                          <i class="fa-solid fa-plus"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product-item col">
+                <div class="product-wrap">
+                  <div class="product-img">
+                    <img src="./assets/images/product_1.png" alt="" />
+                  </div>
+                  <h2 class="product-name">Cherry đỏ Mỹ size 8.5</h2>
+                  <div class="product-sub">
+                    <div class="product-discount">
+                      <p class="number">-20%</p>
+                    </div>
+                    <div class="product-bestSeller">
+                      <p class="bestSeller">Bán chạy</p>
+                    </div>
+                  </div>
+                  <div class="product-content">
+                    <div class="product-price">
+                      <div class="left">
+                        <span class="number">45,000đ</span>
+                        <span class="number-main">45,000đ</span>
+                      </div>
+                      <div class="right">
+                        <div class="product-plus">
+                          <i class="fa-solid fa-plus"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product-item col">
+                <div class="product-wrap">
+                  <div class="product-img">
+                    <img src="./assets/images/product_1.png" alt="" />
+                  </div>
+                  <h2 class="product-name">Cherry đỏ Mỹ size 8.5</h2>
+                  <div class="product-sub">
+                    <div class="product-discount">
+                      <p class="number">-20%</p>
+                    </div>
+                    <div class="product-bestSeller">
+                      <p class="bestSeller">Bán chạy</p>
+                    </div>
+                  </div>
+                  <div class="product-content">
+                    <div class="product-price">
+                      <div class="left">
+                        <span class="number">45,000đ</span>
+                        <span class="number-main">45,000đ</span>
+                      </div>
+                      <div class="right">
+                        <div class="product-plus">
+                          <i class="fa-solid fa-plus"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- line -->
+      <div class="line">
+        <div class="line-item down"></div>
+        <div class="line-item up">
+          <div class="line-list">
+            <div class="line-list-item">
+              <div class="line-wrap">
+                <img src="./assets/images/line_img.png" alt="" />
+
+                <span class="line-text">Morning Fruit</span>
+              </div>
+            </div>
+            <div class="line-list-item">
+              <div class="line-wrap">
+                <img src="./assets/images/line_img.png" alt="" />
+
+                <span class="line-text">Morning Fruit</span>
+              </div>
+            </div>
+            <div class="line-list-item">
+              <div class="line-wrap">
+                <img src="./assets/images/line_img.png" alt="" />
+
+                <span class="line-text">Morning Fruit</span>
+              </div>
+            </div>
+            <div class="line-list-item">
+              <div class="line-wrap">
+                <img src="./assets/images/line_img.png" alt="" />
+
+                <span class="line-text">Morning Fruit</span>
+              </div>
+            </div>
+            <div class="line-list-item">
+              <div class="line-wrap">
+                <img src="./assets/images/line_img.png" alt="" />
+
+                <span class="line-text">Morning Fruit</span>
+              </div>
+            </div>
+            <div class="line-list-item">
+              <div class="line-wrap">
+                <img src="./assets/images/line_img.png" alt="" />
+
+                <span class="line-text">Morning Fruit</span>
+              </div>
+            </div>
+            <div class="line-list-item">
+              <div class="line-wrap">
+                <img src="./assets/images/line_img.png" alt="" />
+
+                <span class="line-text">Morning Fruit</span>
+              </div>
+            </div>
+            <div class="line-list-item">
+              <div class="line-wrap">
+                <img src="./assets/images/line_img.png" alt="" />
+
+                <span class="line-text">Morning Fruit</span>
+              </div>
+            </div>
+            <div class="line-list-item">
+              <div class="line-wrap">
+                <img src="./assets/images/line_img.png" alt="" />
+
+                <span class="line-text">Morning Fruit</span>
+              </div>
+            </div>
+            <div class="line-list-item">
+              <div class="line-wrap">
+                <img src="./assets/images/line_img.png" alt="" />
+
+                <span class="line-text">Morning Fruit</span>
+              </div>
+            </div>
+            <div class="line-list-item">
+              <div class="line-wrap">
+                <img src="./assets/images/line_img.png" alt="" />
+
+                <span class="line-text">Morning Fruit</span>
+              </div>
+            </div>
+            <div class="line-list-item">
+              <div class="line-wrap">
+                <img src="./assets/images/line_img.png" alt="" />
+
+                <span class="line-text">Morning Fruit</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="line-img">
+            <div class="line-img-inner">
+              <img src="./assets/images/allFruit_bg.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- product -->
+      <div class="sec-product">
+        <div class="product">
+          <div class="container">
+            <span class="subTitle">SẢN PHẨM QUÀ TẶNG</span>
+            <div class="product-main">
+              <h1 class="product-title">Trái cây Nhập khẩu</h1>
+              <a href="#" class="product-btn">
+                <span class="text">Xem thêm</span>
+                <i class="ti-arrow-circle-right"></i>
+              </a>
+            </div>
+            <div class="product-list row">
+              <div class="product-item col">
+                <div class="product-wrap">
+                  <div class="product-img">
+                    <img src="./assets/images/product_1.png" alt="" />
+                  </div>
+                  <h2 class="product-name">Cherry đỏ Mỹ size 8.5</h2>
+                  <div class="product-sub">
+                    <div class="product-discount">
+                      <p class="number">-20%</p>
+                    </div>
+                    <div class="product-bestSeller">
+                      <p class="bestSeller">Bán chạy</p>
+                    </div>
+                  </div>
+                  <div class="product-content">
+                    <div class="product-price">
+                      <div class="left">
+                        <span class="number">45,000đ</span>
+                        <span class="number-main">45,000đ</span>
+                      </div>
+                      <div class="right">
+                        <div class="product-plus">
+                          <i class="fa-solid fa-plus"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product-item col">
+                <div class="product-wrap">
+                  <div class="product-img">
+                    <img src="./assets/images/product_1.png" alt="" />
+                  </div>
+                  <h2 class="product-name">
+                    Táo Rockit New Zealand (Lốc 4 trái, 372GR)
+                  </h2>
+                  <div class="product-sub">
+                    <div class="product-discount">
+                      <p class="number">-20%</p>
+                    </div>
+                    <div class="product-bestSeller">
+                      <p class="bestSeller">Bán chạy</p>
+                    </div>
+                  </div>
+                  <div class="product-content">
+                    <div class="product-price">
+                      <div class="left">
+                        <span class="number">45,000đ</span>
+                        <span class="number-main">45,000đ</span>
+                      </div>
+                      <div class="right">
+                        <a href="#" class="product-plus">
+                          <i class="fa-solid fa-plus"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product-item col">
+                <div class="product-wrap">
+                  <div class="product-img">
+                    <img src="./assets/images/product_1.png" alt="" />
+                  </div>
+                  <h2 class="product-name">
+                    Táo Rockit New Zealand (Lốc 4 trái, 372GR)
+                  </h2>
+                  <div class="product-sub">
+                    <div class="product-discount">
+                      <p class="number">-20%</p>
+                    </div>
+                    <div class="product-bestSeller">
+                      <p class="bestSeller">Bán chạy</p>
+                    </div>
+                  </div>
+                  <div class="product-content">
+                    <div class="product-price">
+                      <div class="left">
+                        <span class="number">45,000đ</span>
+                        <span class="number-main">45,000đ</span>
+                      </div>
+                      <div class="right">
+                        <div class="product-plus">
+                          <i class="fa-solid fa-plus"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product-item col">
+                <div class="product-wrap">
+                  <div class="product-img">
+                    <img src="./assets/images/product_1.png" alt="" />
+                  </div>
+                  <h2 class="product-name">
+                    Nho mẫu đơn Hàn Quốc (chùm trên 1KG)
+                  </h2>
+                  <div class="product-sub">
+                    <div class="product-discount">
+                      <p class="number">-20%</p>
+                    </div>
+                    <div class="product-bestSeller">
+                      <p class="bestSeller">Bán chạy</p>
+                    </div>
+                  </div>
+                  <div class="product-content">
+                    <div class="product-price">
+                      <div class="left">
+                        <span class="number">45,000đ</span>
+                        <span class="number-main">45,000đ</span>
+                      </div>
+                      <div class="right">
+                        <div class="product-plus">
+                          <i class="fa-solid fa-plus"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product-item col">
+                <div class="product-wrap">
+                  <div class="product-img">
+                    <img src="./assets/images/product_1.png" alt="" />
+                  </div>
+                  <h2 class="product-name">Cherry đỏ Mỹ size 8.5</h2>
+                  <div class="product-sub">
+                    <div class="product-discount">
+                      <p class="number">-20%</p>
+                    </div>
+                    <div class="product-bestSeller">
+                      <p class="bestSeller">Bán chạy</p>
+                    </div>
+                  </div>
+                  <div class="product-content">
+                    <div class="product-price">
+                      <div class="left">
+                        <span class="number">45,000đ</span>
+                        <span class="number-main">45,000đ</span>
+                      </div>
+                      <div class="right">
+                        <div class="product-plus">
+                          <i class="fa-solid fa-plus"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product-item col">
+                <div class="product-wrap">
+                  <div class="product-img">
+                    <img src="./assets/images/product_1.png" alt="" />
+                  </div>
+                  <h2 class="product-name">Cherry đỏ Mỹ size 8.5</h2>
+                  <div class="product-sub">
+                    <div class="product-discount">
+                      <p class="number">-20%</p>
+                    </div>
+                    <div class="product-bestSeller">
+                      <p class="bestSeller">Bán chạy</p>
+                    </div>
+                  </div>
+                  <div class="product-content">
+                    <div class="product-price">
+                      <div class="left">
+                        <span class="number">45,000đ</span>
+                        <span class="number-main">45,000đ</span>
+                      </div>
+                      <div class="right">
+                        <div class="product-plus">
+                          <i class="fa-solid fa-plus"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product-item col">
+                <div class="product-wrap">
+                  <div class="product-img">
+                    <img src="./assets/images/product_1.png" alt="" />
+                  </div>
+                  <h2 class="product-name">Cherry đỏ Mỹ size 8.5</h2>
+                  <div class="product-sub">
+                    <div class="product-discount">
+                      <p class="number">-20%</p>
+                    </div>
+                    <div class="product-bestSeller">
+                      <p class="bestSeller">Bán chạy</p>
+                    </div>
+                  </div>
+                  <div class="product-content">
+                    <div class="product-price">
+                      <div class="left">
+                        <span class="number">45,000đ</span>
+                        <span class="number-main">45,000đ</span>
+                      </div>
+                      <div class="right">
+                        <div class="product-plus">
+                          <i class="fa-solid fa-plus"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product-item col">
+                <div class="product-wrap">
+                  <div class="product-img">
+                    <img src="./assets/images/product_1.png" alt="" />
+                  </div>
+                  <h2 class="product-name">Cherry đỏ Mỹ size 8.5</h2>
+                  <div class="product-sub">
+                    <div class="product-discount">
+                      <p class="number">-20%</p>
+                    </div>
+                    <div class="product-bestSeller">
+                      <p class="bestSeller">Bán chạy</p>
+                    </div>
+                  </div>
+                  <div class="product-content">
+                    <div class="product-price">
+                      <div class="left">
+                        <span class="number">45,000đ</span>
+                        <span class="number-main">45,000đ</span>
+                      </div>
+                      <div class="right">
+                        <div class="product-plus">
+                          <i class="fa-solid fa-plus"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product-item col">
+                <div class="product-wrap">
+                  <div class="product-img">
+                    <img src="./assets/images/product_1.png" alt="" />
+                  </div>
+                  <h2 class="product-name">Cherry đỏ Mỹ size 8.5</h2>
+                  <div class="product-sub">
+                    <div class="product-discount">
+                      <p class="number">-20%</p>
+                    </div>
+                    <div class="product-bestSeller">
+                      <p class="bestSeller">Bán chạy</p>
+                    </div>
+                  </div>
+                  <div class="product-content">
+                    <div class="product-price">
+                      <div class="left">
+                        <span class="number">45,000đ</span>
+                        <span class="number-main">45,000đ</span>
+                      </div>
+                      <div class="right">
+                        <div class="product-plus">
+                          <i class="fa-solid fa-plus"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product-item col">
+                <div class="product-wrap">
+                  <div class="product-img">
+                    <img src="./assets/images/product_1.png" alt="" />
+                  </div>
+                  <h2 class="product-name">Cherry đỏ Mỹ size 8.5</h2>
+                  <div class="product-sub">
+                    <div class="product-discount">
+                      <p class="number">-20%</p>
+                    </div>
+                    <div class="product-bestSeller">
+                      <p class="bestSeller">Bán chạy</p>
+                    </div>
+                  </div>
+                  <div class="product-content">
+                    <div class="product-price">
+                      <div class="left">
+                        <span class="number">45,000đ</span>
+                        <span class="number-main">45,000đ</span>
+                      </div>
+                      <div class="right">
+                        <div class="product-plus">
+                          <i class="fa-solid fa-plus"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- banner-intro -->
+      <div class="sec-intro">
+        <div class="intro">
+          <div class="container">
+            <div class="intro-img">
+              <img src="./assets/images/intro.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- product -->
+      <div class="sec-product">
+        <div class="product">
+          <div class="container">
+            <span class="subTitle">SẢN PHẨM QUÀ TẶNG</span>
+            <div class="product-main">
+              <h1 class="product-title">Trái cây cắt sẵn</h1>
+              <a href="#" class="product-btn">
+                <span class="text">Xem thêm</span>
+                <i class="ti-arrow-circle-right"></i>
+              </a>
+            </div>
+            <div class="product-list row">
+              <div class="product-item col">
+                <div class="product-wrap">
+                  <div class="product-img">
+                    <img src="./assets/images/product_1.png" alt="" />
+                  </div>
+                  <h2 class="product-name">Cherry đỏ Mỹ size 8.5</h2>
+                  <div class="product-sub">
+                    <div class="product-discount">
+                      <p class="number">-20%</p>
+                    </div>
+                    <div class="product-bestSeller">
+                      <p class="bestSeller">Bán chạy</p>
+                    </div>
+                  </div>
+                  <div class="product-content">
+                    <div class="product-price">
+                      <div class="left">
+                        <span class="number">45,000đ</span>
+                        <span class="number-main">45,000đ</span>
+                      </div>
+                      <div class="right">
+                        <div class="product-plus">
+                          <i class="fa-solid fa-plus"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product-item col">
+                <div class="product-wrap">
+                  <div class="product-img">
+                    <img src="./assets/images/product_1.png" alt="" />
+                  </div>
+                  <h2 class="product-name">
+                    Táo Rockit New Zealand (Lốc 4 trái, 372GR)
+                  </h2>
+                  <div class="product-sub">
+                    <div class="product-discount">
+                      <p class="number">-20%</p>
+                    </div>
+                    <div class="product-bestSeller">
+                      <p class="bestSeller">Bán chạy</p>
+                    </div>
+                  </div>
+                  <div class="product-content">
+                    <div class="product-price">
+                      <div class="left">
+                        <span class="number">45,000đ</span>
+                        <span class="number-main">45,000đ</span>
+                      </div>
+                      <div class="right">
+                        <a href="#" class="product-plus">
+                          <i class="fa-solid fa-plus"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product-item col">
+                <div class="product-wrap">
+                  <div class="product-img">
+                    <img src="./assets/images/product_1.png" alt="" />
+                  </div>
+                  <h2 class="product-name">
+                    Táo Rockit New Zealand (Lốc 4 trái, 372GR)
+                  </h2>
+                  <div class="product-sub">
+                    <div class="product-discount">
+                      <p class="number">-20%</p>
+                    </div>
+                    <div class="product-bestSeller">
+                      <p class="bestSeller">Bán chạy</p>
+                    </div>
+                  </div>
+                  <div class="product-content">
+                    <div class="product-price">
+                      <div class="left">
+                        <span class="number">45,000đ</span>
+                        <span class="number-main">45,000đ</span>
+                      </div>
+                      <div class="right">
+                        <div class="product-plus">
+                          <i class="fa-solid fa-plus"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product-item col">
+                <div class="product-wrap">
+                  <div class="product-img">
+                    <img src="./assets/images/product_1.png" alt="" />
+                  </div>
+                  <h2 class="product-name">
+                    Nho mẫu đơn Hàn Quốc (chùm trên 1KG)
+                  </h2>
+                  <div class="product-sub">
+                    <div class="product-discount">
+                      <p class="number">-20%</p>
+                    </div>
+                    <div class="product-bestSeller">
+                      <p class="bestSeller">Bán chạy</p>
+                    </div>
+                  </div>
+                  <div class="product-content">
+                    <div class="product-price">
+                      <div class="left">
+                        <span class="number">45,000đ</span>
+                        <span class="number-main">45,000đ</span>
+                      </div>
+                      <div class="right">
+                        <div class="product-plus">
+                          <i class="fa-solid fa-plus"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product-item col">
+                <div class="product-wrap">
+                  <div class="product-img">
+                    <img src="./assets/images/product_1.png" alt="" />
+                  </div>
+                  <h2 class="product-name">Cherry đỏ Mỹ size 8.5</h2>
+                  <div class="product-sub">
+                    <div class="product-discount">
+                      <p class="number">-20%</p>
+                    </div>
+                    <div class="product-bestSeller">
+                      <p class="bestSeller">Bán chạy</p>
+                    </div>
+                  </div>
+                  <div class="product-content">
+                    <div class="product-price">
+                      <div class="left">
+                        <span class="number">45,000đ</span>
+                        <span class="number-main">45,000đ</span>
+                      </div>
+                      <div class="right">
+                        <div class="product-plus">
+                          <i class="fa-solid fa-plus"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product-item col">
+                <div class="product-wrap">
+                  <div class="product-img">
+                    <img src="./assets/images/product_1.png" alt="" />
+                  </div>
+                  <h2 class="product-name">Cherry đỏ Mỹ size 8.5</h2>
+                  <div class="product-sub">
+                    <div class="product-discount">
+                      <p class="number">-20%</p>
+                    </div>
+                    <div class="product-bestSeller">
+                      <p class="bestSeller">Bán chạy</p>
+                    </div>
+                  </div>
+                  <div class="product-content">
+                    <div class="product-price">
+                      <div class="left">
+                        <span class="number">45,000đ</span>
+                        <span class="number-main">45,000đ</span>
+                      </div>
+                      <div class="right">
+                        <div class="product-plus">
+                          <i class="fa-solid fa-plus"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product-item col">
+                <div class="product-wrap">
+                  <div class="product-img">
+                    <img src="./assets/images/product_1.png" alt="" />
+                  </div>
+                  <h2 class="product-name">Cherry đỏ Mỹ size 8.5</h2>
+                  <div class="product-sub">
+                    <div class="product-discount">
+                      <p class="number">-20%</p>
+                    </div>
+                    <div class="product-bestSeller">
+                      <p class="bestSeller">Bán chạy</p>
+                    </div>
+                  </div>
+                  <div class="product-content">
+                    <div class="product-price">
+                      <div class="left">
+                        <span class="number">45,000đ</span>
+                        <span class="number-main">45,000đ</span>
+                      </div>
+                      <div class="right">
+                        <div class="product-plus">
+                          <i class="fa-solid fa-plus"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product-item col">
+                <div class="product-wrap">
+                  <div class="product-img">
+                    <img src="./assets/images/product_1.png" alt="" />
+                  </div>
+                  <h2 class="product-name">Cherry đỏ Mỹ size 8.5</h2>
+                  <div class="product-sub">
+                    <div class="product-discount">
+                      <p class="number">-20%</p>
+                    </div>
+                    <div class="product-bestSeller">
+                      <p class="bestSeller">Bán chạy</p>
+                    </div>
+                  </div>
+                  <div class="product-content">
+                    <div class="product-price">
+                      <div class="left">
+                        <span class="number">45,000đ</span>
+                        <span class="number-main">45,000đ</span>
+                      </div>
+                      <div class="right">
+                        <div class="product-plus">
+                          <i class="fa-solid fa-plus"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product-item col">
+                <div class="product-wrap">
+                  <div class="product-img">
+                    <img src="./assets/images/product_1.png" alt="" />
+                  </div>
+                  <h2 class="product-name">Cherry đỏ Mỹ size 8.5</h2>
+                  <div class="product-sub">
+                    <div class="product-discount">
+                      <p class="number">-20%</p>
+                    </div>
+                    <div class="product-bestSeller">
+                      <p class="bestSeller">Bán chạy</p>
+                    </div>
+                  </div>
+                  <div class="product-content">
+                    <div class="product-price">
+                      <div class="left">
+                        <span class="number">45,000đ</span>
+                        <span class="number-main">45,000đ</span>
+                      </div>
+                      <div class="right">
+                        <div class="product-plus">
+                          <i class="fa-solid fa-plus"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product-item col">
+                <div class="product-wrap">
+                  <div class="product-img">
+                    <img src="./assets/images/product_1.png" alt="" />
+                  </div>
+                  <h2 class="product-name">Cherry đỏ Mỹ size 8.5</h2>
+                  <div class="product-sub">
+                    <div class="product-discount">
+                      <p class="number">-20%</p>
+                    </div>
+                    <div class="product-bestSeller">
+                      <p class="bestSeller">Bán chạy</p>
+                    </div>
+                  </div>
+                  <div class="product-content">
+                    <div class="product-price">
+                      <div class="left">
+                        <span class="number">45,000đ</span>
+                        <span class="number-main">45,000đ</span>
+                      </div>
+                      <div class="right">
+                        <div class="product-plus">
+                          <i class="fa-solid fa-plus"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- line -->
+      <div class="line">
+        <div class="line-item down"></div>
+        <div class="line-item up">
+          <div class="line-list">
+            <div class="line-list-item">
+              <div class="line-wrap">
+                <img src="./assets/images/line_img.png" alt="" />
+
+                <span class="line-text">Morning Fruit</span>
+              </div>
+            </div>
+            <div class="line-list-item">
+              <div class="line-wrap">
+                <img src="./assets/images/line_img.png" alt="" />
+
+                <span class="line-text">Morning Fruit</span>
+              </div>
+            </div>
+            <div class="line-list-item">
+              <div class="line-wrap">
+                <img src="./assets/images/line_img.png" alt="" />
+
+                <span class="line-text">Morning Fruit</span>
+              </div>
+            </div>
+            <div class="line-list-item">
+              <div class="line-wrap">
+                <img src="./assets/images/line_img.png" alt="" />
+
+                <span class="line-text">Morning Fruit</span>
+              </div>
+            </div>
+            <div class="line-list-item">
+              <div class="line-wrap">
+                <img src="./assets/images/line_img.png" alt="" />
+
+                <span class="line-text">Morning Fruit</span>
+              </div>
+            </div>
+            <div class="line-list-item">
+              <div class="line-wrap">
+                <img src="./assets/images/line_img.png" alt="" />
+
+                <span class="line-text">Morning Fruit</span>
+              </div>
+            </div>
+            <div class="line-list-item">
+              <div class="line-wrap">
+                <img src="./assets/images/line_img.png" alt="" />
+
+                <span class="line-text">Morning Fruit</span>
+              </div>
+            </div>
+            <div class="line-list-item">
+              <div class="line-wrap">
+                <img src="./assets/images/line_img.png" alt="" />
+
+                <span class="line-text">Morning Fruit</span>
+              </div>
+            </div>
+            <div class="line-list-item">
+              <div class="line-wrap">
+                <img src="./assets/images/line_img.png" alt="" />
+
+                <span class="line-text">Morning Fruit</span>
+              </div>
+            </div>
+            <div class="line-list-item">
+              <div class="line-wrap">
+                <img src="./assets/images/line_img.png" alt="" />
+
+                <span class="line-text">Morning Fruit</span>
+              </div>
+            </div>
+            <div class="line-list-item">
+              <div class="line-wrap">
+                <img src="./assets/images/line_img.png" alt="" />
+
+                <span class="line-text">Morning Fruit</span>
+              </div>
+            </div>
+            <div class="line-list-item">
+              <div class="line-wrap">
+                <img src="./assets/images/line_img.png" alt="" />
+
+                <span class="line-text">Morning Fruit</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="line-img">
+            <div class="line-img-inner">
+              <img src="./assets/images/allFruit_bg.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- product -->
+      <div class="sec-product">
+        <div class="product">
+          <div class="container">
+            <span class="subTitle">SẢN PHẨM QUÀ TẶNG</span>
+            <div class="product-main">
+              <h1 class="product-title">Nước ép trái cây</h1>
+              <a href="#" class="product-btn">
+                <span class="text">Xem thêm</span>
+                <i class="ti-arrow-circle-right"></i>
+              </a>
+            </div>
+            <div class="product-list row">
+              <div class="product-item col">
+                <div class="product-wrap">
+                  <div class="product-img">
+                    <img src="./assets/images/product_1.png" alt="" />
+                  </div>
+                  <h2 class="product-name">Cherry đỏ Mỹ size 8.5</h2>
+                  <div class="product-sub">
+                    <div class="product-discount">
+                      <p class="number">-20%</p>
+                    </div>
+                    <div class="product-bestSeller">
+                      <p class="bestSeller">Bán chạy</p>
+                    </div>
+                  </div>
+                  <div class="product-content">
+                    <div class="product-price">
+                      <div class="left">
+                        <span class="number">45,000đ</span>
+                        <span class="number-main">45,000đ</span>
+                      </div>
+                      <div class="right">
+                        <div class="product-plus">
+                          <i class="fa-solid fa-plus"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product-item col">
+                <div class="product-wrap">
+                  <div class="product-img">
+                    <img src="./assets/images/product_1.png" alt="" />
+                  </div>
+                  <h2 class="product-name">
+                    Táo Rockit New Zealand (Lốc 4 trái, 372GR)
+                  </h2>
+                  <div class="product-sub">
+                    <div class="product-discount">
+                      <p class="number">-20%</p>
+                    </div>
+                    <div class="product-bestSeller">
+                      <p class="bestSeller">Bán chạy</p>
+                    </div>
+                  </div>
+                  <div class="product-content">
+                    <div class="product-price">
+                      <div class="left">
+                        <span class="number">45,000đ</span>
+                        <span class="number-main">45,000đ</span>
+                      </div>
+                      <div class="right">
+                        <a href="#" class="product-plus">
+                          <i class="fa-solid fa-plus"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product-item col">
+                <div class="product-wrap">
+                  <div class="product-img">
+                    <img src="./assets/images/product_1.png" alt="" />
+                  </div>
+                  <h2 class="product-name">
+                    Táo Rockit New Zealand (Lốc 4 trái, 372GR)
+                  </h2>
+                  <div class="product-sub">
+                    <div class="product-discount">
+                      <p class="number">-20%</p>
+                    </div>
+                    <div class="product-bestSeller">
+                      <p class="bestSeller">Bán chạy</p>
+                    </div>
+                  </div>
+                  <div class="product-content">
+                    <div class="product-price">
+                      <div class="left">
+                        <span class="number">45,000đ</span>
+                        <span class="number-main">45,000đ</span>
+                      </div>
+                      <div class="right">
+                        <div class="product-plus">
+                          <i class="fa-solid fa-plus"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product-item col">
+                <div class="product-wrap">
+                  <div class="product-img">
+                    <img src="./assets/images/product_1.png" alt="" />
+                  </div>
+                  <h2 class="product-name">
+                    Nho mẫu đơn Hàn Quốc (chùm trên 1KG)
+                  </h2>
+                  <div class="product-sub">
+                    <div class="product-discount">
+                      <p class="number">-20%</p>
+                    </div>
+                    <div class="product-bestSeller">
+                      <p class="bestSeller">Bán chạy</p>
+                    </div>
+                  </div>
+                  <div class="product-content">
+                    <div class="product-price">
+                      <div class="left">
+                        <span class="number">45,000đ</span>
+                        <span class="number-main">45,000đ</span>
+                      </div>
+                      <div class="right">
+                        <div class="product-plus">
+                          <i class="fa-solid fa-plus"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product-item col">
+                <div class="product-wrap">
+                  <div class="product-img">
+                    <img src="./assets/images/product_1.png" alt="" />
+                  </div>
+                  <h2 class="product-name">Cherry đỏ Mỹ size 8.5</h2>
+                  <div class="product-sub">
+                    <div class="product-discount">
+                      <p class="number">-20%</p>
+                    </div>
+                    <div class="product-bestSeller">
+                      <p class="bestSeller">Bán chạy</p>
+                    </div>
+                  </div>
+                  <div class="product-content">
+                    <div class="product-price">
+                      <div class="left">
+                        <span class="number">45,000đ</span>
+                        <span class="number-main">45,000đ</span>
+                      </div>
+                      <div class="right">
+                        <div class="product-plus">
+                          <i class="fa-solid fa-plus"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product-item col">
+                <div class="product-wrap">
+                  <div class="product-img">
+                    <img src="./assets/images/product_1.png" alt="" />
+                  </div>
+                  <h2 class="product-name">Cherry đỏ Mỹ size 8.5</h2>
+                  <div class="product-sub">
+                    <div class="product-discount">
+                      <p class="number">-20%</p>
+                    </div>
+                    <div class="product-bestSeller">
+                      <p class="bestSeller">Bán chạy</p>
+                    </div>
+                  </div>
+                  <div class="product-content">
+                    <div class="product-price">
+                      <div class="left">
+                        <span class="number">45,000đ</span>
+                        <span class="number-main">45,000đ</span>
+                      </div>
+                      <div class="right">
+                        <div class="product-plus">
+                          <i class="fa-solid fa-plus"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product-item col">
+                <div class="product-wrap">
+                  <div class="product-img">
+                    <img src="./assets/images/product_1.png" alt="" />
+                  </div>
+                  <h2 class="product-name">Cherry đỏ Mỹ size 8.5</h2>
+                  <div class="product-sub">
+                    <div class="product-discount">
+                      <p class="number">-20%</p>
+                    </div>
+                    <div class="product-bestSeller">
+                      <p class="bestSeller">Bán chạy</p>
+                    </div>
+                  </div>
+                  <div class="product-content">
+                    <div class="product-price">
+                      <div class="left">
+                        <span class="number">45,000đ</span>
+                        <span class="number-main">45,000đ</span>
+                      </div>
+                      <div class="right">
+                        <div class="product-plus">
+                          <i class="fa-solid fa-plus"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product-item col">
+                <div class="product-wrap">
+                  <div class="product-img">
+                    <img src="./assets/images/product_1.png" alt="" />
+                  </div>
+                  <h2 class="product-name">Cherry đỏ Mỹ size 8.5</h2>
+                  <div class="product-sub">
+                    <div class="product-discount">
+                      <p class="number">-20%</p>
+                    </div>
+                    <div class="product-bestSeller">
+                      <p class="bestSeller">Bán chạy</p>
+                    </div>
+                  </div>
+                  <div class="product-content">
+                    <div class="product-price">
+                      <div class="left">
+                        <span class="number">45,000đ</span>
+                        <span class="number-main">45,000đ</span>
+                      </div>
+                      <div class="right">
+                        <div class="product-plus">
+                          <i class="fa-solid fa-plus"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product-item col">
+                <div class="product-wrap">
+                  <div class="product-img">
+                    <img src="./assets/images/product_1.png" alt="" />
+                  </div>
+                  <h2 class="product-name">Cherry đỏ Mỹ size 8.5</h2>
+                  <div class="product-sub">
+                    <div class="product-discount">
+                      <p class="number">-20%</p>
+                    </div>
+                    <div class="product-bestSeller">
+                      <p class="bestSeller">Bán chạy</p>
+                    </div>
+                  </div>
+                  <div class="product-content">
+                    <div class="product-price">
+                      <div class="left">
+                        <span class="number">45,000đ</span>
+                        <span class="number-main">45,000đ</span>
+                      </div>
+                      <div class="right">
+                        <div class="product-plus">
+                          <i class="fa-solid fa-plus"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product-item col">
+                <div class="product-wrap">
+                  <div class="product-img">
+                    <img src="./assets/images/product_1.png" alt="" />
+                  </div>
+                  <h2 class="product-name">Cherry đỏ Mỹ size 8.5</h2>
+                  <div class="product-sub">
+                    <div class="product-discount">
+                      <p class="number">-20%</p>
+                    </div>
+                    <div class="product-bestSeller">
+                      <p class="bestSeller">Bán chạy</p>
+                    </div>
+                  </div>
+                  <div class="product-content">
+                    <div class="product-price">
+                      <div class="left">
+                        <span class="number">45,000đ</span>
+                        <span class="number-main">45,000đ</span>
+                      </div>
+                      <div class="right">
+                        <div class="product-plus">
+                          <i class="fa-solid fa-plus"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="footer-img">
+        <img src="./assets/images/bg_footer.png" alt="" />
+      </div>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-top">
+            <div class="footer-left">
+              <a href="#" class="footer-logo">
+                <img src="./assets/images/morning.png" alt="" />
+              </a>
+            </div>
+            <div class="footer-right">
+              <div class="footer-wrap">
+                <p class="footer-wrap-text">Đăng ký nhận tin</p>
+                <div class="footer-search">
+                  <form class="searchForm">
+                    <div class="footer-search-wrap">
+                      <input
+                        type="text"
+                        placeholder="Nhập từ khóa tìm kiếm..."
+                      />
+                      <div class="footer-search-icon">
+                        <i class="fa-regular fa-paper-plane"></i>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="footer-bottom">
+            <div class="footer-row row">
+              <div class="footer-item col col-4">
+                <div class="footer-item text1">
+                  <h3 class="title">Về Morning Fruit</h3>
+                  <p class="text">
+                    Morning Fruit là thương hiệu trái cây tươi chất lượng cao,
+                    với đa dạng sản phẩm phục vụ mọi nhu cầu: đặc sản vùng miền,
+                    trái cây nhập khẩu, quà tặng trái cây, mâm ngũ quả, nước ép,
+                    và trái cây sấy.
+                  </p>
+                </div>
+                <div class="footer-item text2">
+                  <h3 class="title">
+                    Bản quyền của Công ty TNHH Morning Fruit
+                  </h3>
+                  <p class="text">
+                    Giấy chứng nhận Đăng ký Kinh doanh số 0316077880 do Sở Kế
+                    hoạch và Đầu tư Thành phố Hồ Chí Minh cấp ngày 02/01/2020.
+                    Đăng ký thay đổi lần 4 ngày 22/04/2022
+                  </p>
+                  <p class="text">
+                    Giấy chứng nhận cơ sở đủ điều kiện an toàn thực phẩm số
+                    3091/2022/BQLATTP-HCM do Ban Quản lý An toàn thực phẩm thành
+                    phố HồChí Minh cấp ngày 17/06/2022
+                  </p>
+                </div>
+                <div class="footer-item BCT">
+                  <div class="bct-img">
+                    <img src="./assets/images/BCT.png" alt="" />
+                  </div>
+                </div>
+              </div>
+              <div class="footer-item col col-3">
+                <div class="footer-service">
+                  <h3 class="title">Thông tin liên hệ</h3>
+                  <p class="text-item">
+                    <i class="fa-solid fa-house"></i>
+                    Hệ thống chi nhánh cửa hàng
+                  </p>
+                  <div class="footer-branch">
+                    <p class="footer-branch-item">Chi nhánh 01</p>
+                    <p class="footer-branch-item">Chi nhánh 02</p>
+                  </div>
+                  <div class="footer-branchDetails">
+                    <div class="footer-tabItem">
+                      <p class="text adress">
+                        Lầu 1, 43 Nguyễn Thái Học, phường Cầu Ông Lãnh, quận 1,
+                        TP. Hồ Chí Minh.
+                      </p>
+                      <div class="tabItem-phone">
+                        <p class="text-icon">
+                          <i class="fa-solid fa-phone"></i>
+                          Điện thoại
+                        </p>
+                        <p class="number">
+                          <a href="#">0865660775 </a> |
+                          <a href="#">0327400880</a>
+                        </p>
+                      </div>
+                      <div class="tabItem-email">
+                        <p class="text-email">
+                          <i class="fa-solid fa-envelope"></i>
+                          Email
+                        </p>
+                        <p class="text">hello@morningfruit.com.vn</p>
+                      </div>
+                    </div>
+                    <div class="footer-tabItem">
+                      <p class="text adress">
+                        Lầu 1, 43 Phố Hàng Gốm, quận Hà Đông, TP. Hà nội.
+                      </p>
+                      <div class="tabItem-phone">
+                        <p class="text-icon">
+                          <i class="fa-solid fa-phone"></i>
+                          Điện thoại
+                        </p>
+                        <p class="number">
+                          <a href="#">0865660775 </a>
+                          <a href="#">0327400880</a>
+                        </p>
+                      </div>
+                      <div class="tabItem-email">
+                        <p class="text-email">
+                          <i class="fa-solid fa-envelope"></i>
+                          Email
+                        </p>
+                        <p class="text">hello@morningfruit.com.vn</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="footer-internet">
+                  <h3 class="internet-text">Kết nối với chúng tôi</h3>
+                  <div class="mxh">
+                    <div class="mxh-item">
+                      <div class="mxh-icon">
+                        <i class="fa-brands fa-facebook-f"></i>
+                      </div>
+                    </div>
+                    <div class="mxh-item">
+                      <div class="mxh-icon">
+                        <i class="fa-brands fa-instagram"></i>
+                      </div>
+                    </div>
+                    <div class="mxh-item">
+                      <div class="mxh-icon">
+                        <img src="./assets/images/footer_zalo.png" alt="" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="footer-item col col-2">
+                <div class="footer-contact">
+                  <h3 class="title">Liên kết nhanh</h3>
+                  <a href="#" class="footer-contact-item">Trang chủ</a>
+                  <a href="#" class="footer-contact-item">Về chúng tôi</a>
+                  <a href="#" class="footer-contact-item">Tất cả sản phẩm</a>
+                  <a href="#" class="footer-contact-item">Trái cây Việt Nam</a>
+                  <a href="#" class="footer-contact-item">Trái cây nhập khẩu</a>
+                  <a href="#" class="footer-contact-item">Trái cây cắt sẵn</a>
+                  <a href="#" class="footer-contact-item"
+                    >Nước ép nguyên chất</a
+                  >
+                  <a href="#" class="footer-contact-item">Hộp quà trái cây</a>
+                  <a href="#" class="footer-contact-item"
+                    >Hộp quà gỗ nguyệt cát</a
+                  >
+                  <a href="#" class="footer-contact-item">Giỏ quà trái cây</a>
+                  <a href="#" class="footer-contact-item"
+                    >Dịch vụ doanh nghiệp</a
+                  >
+                  <a href="#" class="footer-contact-item">Liên hệ</a>
+                </div>
+              </div>
+              <div class="footer-item col col-3">
+                <div class="footer-policy">
+                  <h3 class="title">Chính sách Công ty</h3>
+                  <p class="policy-item">Chính sách bảo mât</p>
+                  <p class="policy-item">Chính sách kiểm hàng</p>
+                  <p class="policy-item">Chính sách bảo hành</p>
+                  <p class="policy-item">Chính sách giao hàng</p>
+                  <p class="policy-item">Chính sách thanh toán</p>
+                  <p class="policy-item">Chính sách bảo mật</p>
+                  <p class="policy-item">Hướng dẫn mua hàng</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="./js/library/jquery/jquery.js"></script>
+    <script src="./js/library/swiper/swiper-bundle.min.js"></script>
+    <script src="./js/library/aos/aos.js"></script>
+    <script src="./js/library/select2/select2.min.js"></script>
+    <script src="./js/library/gallery/lightgallery-all.min.js"></script>
+    <script src="./js/library/jquery/jquery-migrate.js"></script>
+    <script src="./js/library/fancybox/fancybox.umd.js"></script>
+    <script src="./js/main.js" type="module"></script>
+  </body>
+</html>
