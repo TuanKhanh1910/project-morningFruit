@@ -2002,6 +2002,65 @@ img {
   object-fit: cover;
 }
 
+.backToTop {
+  position: fixed;
+  right: 5rem;
+  bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* cách để ẩn nút back to top */
+  visibility: hidden;
+  opacity: 0;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  z-index: 10;
+  transition: all 0.5s;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 0.6rem;
+  background-color: #f36f3f;
+  transform: translateX(150%);
+}
+.backToTop .fa-solid {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #ffffff;
+  transition: all 0.3s;
+}
+.backToTop .fa-solid:first-child {
+  transform: translateY(0.8rem);
+  animation: BTT 1.5s linear 0.6s infinite;
+}
+.backToTop .fa-solid:nth-child(2) {
+  transform: translateY(0.5rem);
+  animation: BTT 1.5s linear 0.3s infinite;
+}
+.backToTop .fa-solid:last-child {
+  transform: translateY(0.2rem);
+  animation: BTT 1.5s linear 0s infinite;
+}
+
+.cd-top--is-visible {
+  visibility: visible;
+  opacity: 1;
+  transform: translateX(30%);
+}
+
+@keyframes BTT {
+  0% {
+    opacity: 0;
+  }
+  33% {
+    opacity: 1;
+  }
+  66% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
 .footer {
   padding: 8rem 0;
   min-height: 44.9652777778vw;
