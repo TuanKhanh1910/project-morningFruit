@@ -1,5 +1,5 @@
 .product {
-  padding: 8rem 0;
+  padding: var(--pd-sc) 0;
   //   overflow: hidden;
   .container {
     @media screen and (min-width: 1200px) and (max-width: 1727px) {
@@ -172,7 +172,7 @@
     border-radius: 0.6rem;
     background-color: rgba(217, 231, 214, 1);
     .bestSeller {
-      font-size: 1.2rem;
+      font-size: 1.6rem;
       font-weight: 700;
       color: rgba(64, 134, 48, 1);
     }

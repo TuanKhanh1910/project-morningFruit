@@ -17,6 +17,9 @@
     --gap: 3rem;
     --width: 10rem;
   }
+  @media screen and (max-width: 1200px) {
+    --pd-sc: 4rem;
+  }
 }
 
 // dit me m nho chua

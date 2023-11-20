@@ -57,7 +57,12 @@ textarea {
 
 .main {
   min-height: 68vh;
-  padding-top: var(--size-hd);
+  padding-top: calc(
+    var(--size-hd-sidebar) + var(--size-hd-top) + var(--size-hd-bottom) + 1.5rem
+  );
+  @include max(1199px) {
+    padding-top: calc(var(--size-hd-sidebar) + var(--size-hd-top) - 2.5rem);
+  }
 }
 
 .container {

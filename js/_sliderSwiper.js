@@ -10,7 +10,7 @@ export default function sliderSwiper() {
       loop: true,
 
       breakpoints: {
-        500: {
+        0: {
           slidesPerView: 2,
         },
         860: {

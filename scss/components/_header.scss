@@ -16,6 +16,10 @@
         height: 7rem;
       }
     }
+    .mobile-overlay,
+    .mobile {
+      top: 7rem;
+    }
   }
   @include max(1200px) {
     border-bottom: 0.1rem solid rgba(0, 0, 0, 0.1);

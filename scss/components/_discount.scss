@@ -16,6 +16,7 @@
   }
   &-details {
     --col-gap: 1.2rem;
+    --row-gap: 1.2rem;
   }
   .col {
     width: 20%;
@@ -42,6 +43,12 @@
     @media screen and (min-width: 1200px) and (max-width: 1727px) {
       padding: 1.4rem;
     }
+    @include max(992px) {
+      padding: 1.2rem 2rem;
+    }
+    // @include max(500px) {
+    //   padding: 1.2rem 2.4rem;
+    // }
   }
   .one {
     background-color: rgba(254, 225, 181, 1);

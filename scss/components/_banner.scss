@@ -1,6 +1,6 @@
 .banner {
   overflow: hidden;
-  padding: 8rem 0 0;
+  // padding: 8rem 0 0;
   @include max(1200px) {
     padding: 0;
   }
@@ -11,6 +11,8 @@
     }
   }
   &-slider {
+    border-radius: 2.4rem;
+    overflow: hidden;
     @include min(1727px) {
       width: calc(100% + ((100vw - 123rem) / 2));
     }
@@ -20,8 +22,7 @@
   &-img {
     padding-top: calc((550 / 1448) * 100%);
     position: relative;
-    border-radius: 2.4rem;
-    overflow: hidden;
+
     img {
       @include Img;
     }

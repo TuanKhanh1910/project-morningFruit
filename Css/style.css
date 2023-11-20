@@ -279,6 +279,11 @@ table {
     --width: 10rem;
   }
 }
+@media screen and (max-width: 1200px) {
+  :root {
+    --pd-sc: 4rem;
+  }
+}
 
 * {
   box-sizing: border-box;
@@ -335,7 +340,12 @@ textarea {
 
 .main {
   min-height: 68vh;
-  padding-top: var(--size-hd);
+  padding-top: calc(var(--size-hd-sidebar) + var(--size-hd-top) + var(--size-hd-bottom) + 1.5rem);
+}
+@media screen and (max-width: 1199px) {
+  .main {
+    padding-top: calc(var(--size-hd-sidebar) + var(--size-hd-top) - 2.5rem);
+  }
 }
 
 .container {
@@ -502,6 +512,10 @@ img {
   .header.sticky .header-top {
     height: 7rem;
   }
+}
+.header.sticky .mobile-overlay,
+.header.sticky .mobile {
+  top: 7rem;
 }
 @media screen and (max-width: 1200px) {
   .header {
@@ -1141,7 +1155,6 @@ img {
 
 .banner {
   overflow: hidden;
-  padding: 8rem 0 0;
 }
 @media screen and (max-width: 1200px) {
   .banner {
@@ -1155,6 +1168,8 @@ img {
   }
 }
 .banner-slider {
+  border-radius: 2.4rem;
+  overflow: hidden;
   position: relative;
 }
 @media screen and (min-width: 1727px) {
@@ -1165,8 +1180,6 @@ img {
 .banner-img {
   padding-top: 37.9834254144%;
   position: relative;
-  border-radius: 2.4rem;
-  overflow: hidden;
 }
 .banner-img img {
   position: absolute;
@@ -1197,6 +1210,7 @@ img {
 }
 .discount-details {
   --col-gap: 1.2rem;
+  --row-gap: 1.2rem;
 }
 .discount .col {
   width: 20%;
@@ -1232,6 +1246,11 @@ img {
 @media screen and (min-width: 1200px) and (max-width: 1727px) {
   .discount-wrap {
     padding: 1.4rem;
+  }
+}
+@media screen and (max-width: 992px) {
+  .discount-wrap {
+    padding: 1.2rem 2rem;
   }
 }
 .discount .one {
@@ -1341,7 +1360,7 @@ img {
 }
 
 .product {
-  padding: 8rem 0;
+  padding: var(--pd-sc) 0;
 }
 @media screen and (min-width: 1200px) and (max-width: 1727px) {
   .product .container {
@@ -1522,7 +1541,7 @@ img {
   background-color: rgb(217, 231, 214);
 }
 .product-bestSeller .bestSeller {
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   font-weight: 700;
   color: rgb(64, 134, 48);
 }
@@ -1566,6 +1585,16 @@ img {
   padding: 4rem 0;
   margin: 9.6rem 0;
   position: relative;
+}
+@media screen and (max-width: 1200px) {
+  .slider {
+    margin: 6rem 0;
+  }
+}
+@media screen and (max-width: 860px) {
+  .slider {
+    margin: 0;
+  }
 }
 @media screen and (min-width: 1200px) and (max-width: 1727px) {
   .slider .container {
@@ -1756,7 +1785,7 @@ img {
   background-color: rgb(217, 231, 214);
 }
 .slider-bestSeller .bestSeller {
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   font-weight: 700;
   color: rgb(64, 134, 48);
 }
@@ -1949,7 +1978,7 @@ img {
 }
 
 .intro {
-  padding: 8rem 0;
+  padding: var(--pd-sc) 0;
 }
 @media screen and (min-width: 1200px) and (max-width: 1727px) {
   .intro .container {
